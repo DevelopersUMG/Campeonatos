@@ -21,3 +21,13 @@ C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\PrototipoTablaPosicione
 C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.crear_jugadores.resources
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.exe
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.pdb
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\bin\Debug\PrototipoTablaPosiciones.exe
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\bin\Debug\PrototipoTablaPosiciones.pdb
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.crear_jugadores.resources
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.Form1.resources
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.MDI.resources
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.Properties.Resources.resources
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.Ventana.resources
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Proyectos temporales\PrototipoTablaPosiciones\PrototipoTablaPosiciones\obj\x86\Debug\PrototipoTablaPosiciones.csproj.GenerateResource.Cache

@@ -15,7 +15,7 @@ namespace Campeonatos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form_bienvenida());
+            Application.Run(new Ventana());
         }
     }
 }

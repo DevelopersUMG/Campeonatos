@@ -39,18 +39,19 @@
             // Button1
             // 
             this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.Location = new System.Drawing.Point(280, 348);
+            this.Button1.Location = new System.Drawing.Point(280, 416);
             this.Button1.Margin = new System.Windows.Forms.Padding(4);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(100, 36);
             this.Button1.TabIndex = 13;
             this.Button1.Text = "Ingresar";
             this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // TextBox2
             // 
             this.TextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox2.Location = new System.Drawing.Point(126, 314);
+            this.TextBox2.Location = new System.Drawing.Point(126, 382);
             this.TextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.TextBox2.Name = "TextBox2";
             this.TextBox2.PasswordChar = '*';
@@ -60,7 +61,7 @@
             // TextBox1
             // 
             this.TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox1.Location = new System.Drawing.Point(126, 279);
+            this.TextBox1.Location = new System.Drawing.Point(126, 347);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.TextBox1.Name = "TextBox1";
             this.TextBox1.Size = new System.Drawing.Size(252, 26);
@@ -71,7 +72,8 @@
             this.Label2.AutoSize = true;
             this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(13, 313);
+            this.Label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label2.Location = new System.Drawing.Point(13, 381);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(97, 20);
@@ -83,7 +85,8 @@
             this.Label3.AutoSize = true;
             this.Label3.BackColor = System.Drawing.Color.Transparent;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(13, 279);
+            this.Label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label3.Location = new System.Drawing.Point(13, 347);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(80, 20);
@@ -95,7 +98,8 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(13, 239);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(13, 307);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(164, 20);
@@ -106,7 +110,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(494, 400);
+            this.BackgroundImage = global::Campeonatos.Properties.Resources.skateboard_you_can_free_abstract_soccer_frame_ppt;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(613, 470);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.TextBox2);
             this.Controls.Add(this.TextBox1);
