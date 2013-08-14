@@ -5,3 +5,5 @@ c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\ob
 c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csproj.GenerateResource.Cache
 c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
 c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
