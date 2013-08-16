@@ -28,44 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Button1 = new System.Windows.Forms.Button();
-            this.TextBox2 = new System.Windows.Forms.TextBox();
-            this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.btn_login = new System.Windows.Forms.Button();
+            this.txt_pass = new System.Windows.Forms.TextBox();
+            this.txt_usuario = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btn_cerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Button1
+            // btn_login
             // 
-            this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.Location = new System.Drawing.Point(280, 416);
-            this.Button1.Margin = new System.Windows.Forms.Padding(4);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(100, 36);
-            this.Button1.TabIndex = 13;
-            this.Button1.Text = "Ingresar";
-            this.Button1.UseVisualStyleBackColor = true;
-            this.Button1.Click += new System.EventHandler(this.Button1_Click);
+            this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_login.Location = new System.Drawing.Point(280, 416);
+            this.btn_login.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(100, 36);
+            this.btn_login.TabIndex = 13;
+            this.btn_login.Text = "Ingresar";
+            this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
-            // TextBox2
+            // txt_pass
             // 
-            this.TextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox2.Location = new System.Drawing.Point(126, 382);
-            this.TextBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.TextBox2.Name = "TextBox2";
-            this.TextBox2.PasswordChar = '*';
-            this.TextBox2.Size = new System.Drawing.Size(252, 26);
-            this.TextBox2.TabIndex = 12;
+            this.txt_pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pass.Location = new System.Drawing.Point(126, 382);
+            this.txt_pass.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_pass.Name = "txt_pass";
+            this.txt_pass.PasswordChar = '*';
+            this.txt_pass.Size = new System.Drawing.Size(252, 26);
+            this.txt_pass.TabIndex = 12;
+            this.txt_pass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_pass_KeyPress);
             // 
-            // TextBox1
+            // txt_usuario
             // 
-            this.TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox1.Location = new System.Drawing.Point(126, 347);
-            this.TextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(252, 26);
-            this.TextBox1.TabIndex = 11;
+            this.txt_usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_usuario.Location = new System.Drawing.Point(126, 347);
+            this.txt_usuario.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_usuario.Name = "txt_usuario";
+            this.txt_usuario.Size = new System.Drawing.Size(252, 26);
+            this.txt_usuario.TabIndex = 11;
             // 
             // Label2
             // 
@@ -84,12 +86,12 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.BackColor = System.Drawing.Color.Transparent;
-            this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Label3.Location = new System.Drawing.Point(13, 347);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(80, 20);
+            this.Label3.Size = new System.Drawing.Size(76, 23);
             this.Label3.TabIndex = 9;
             this.Label3.Text = "Usuario:";
             // 
@@ -106,6 +108,17 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Ingreso al sistema";
             // 
+            // btn_cerrar
+            // 
+            this.btn_cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cerrar.Location = new System.Drawing.Point(509, 416);
+            this.btn_cerrar.Name = "btn_cerrar";
+            this.btn_cerrar.Size = new System.Drawing.Size(92, 36);
+            this.btn_cerrar.TabIndex = 14;
+            this.btn_cerrar.Text = "Salir";
+            this.btn_cerrar.UseVisualStyleBackColor = true;
+            this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
+            // 
             // form_bienvenida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -113,9 +126,10 @@
             this.BackgroundImage = global::Campeonatos.Properties.Resources.skateboard_you_can_free_abstract_soccer_frame_ppt;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(613, 470);
-            this.Controls.Add(this.Button1);
-            this.Controls.Add(this.TextBox2);
-            this.Controls.Add(this.TextBox1);
+            this.Controls.Add(this.btn_cerrar);
+            this.Controls.Add(this.btn_login);
+            this.Controls.Add(this.txt_pass);
+            this.Controls.Add(this.txt_usuario);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.label4);
@@ -129,12 +143,13 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button Button1;
-        internal System.Windows.Forms.TextBox TextBox2;
-        internal System.Windows.Forms.TextBox TextBox1;
+        internal System.Windows.Forms.Button btn_login;
+        internal System.Windows.Forms.TextBox txt_pass;
+        internal System.Windows.Forms.TextBox txt_usuario;
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_cerrar;
 
     }
 }

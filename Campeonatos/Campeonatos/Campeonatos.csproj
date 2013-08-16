@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SQLiteConnect">
+      <HintPath>..\..\SQLiteConnect\SQLiteConnect\bin\Debug\SQLiteConnect.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,8 +55,15 @@
     <Compile Include="Bienvenida.Designer.cs">
       <DependentUpon>Bienvenida.cs</DependentUpon>
     </Compile>
+    <Compile Include="Configuración.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración.Designer.cs">
+      <DependentUpon>Configuración.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="Ventana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +72,9 @@
     </Compile>
     <EmbeddedResource Include="Bienvenida.resx">
       <DependentUpon>Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración.resx">
+      <DependentUpon>Configuración.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,6 +89,7 @@
     <EmbeddedResource Include="Ventana.resx">
       <DependentUpon>Ventana.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -118,6 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\skateboard-you-can-free-abstract-soccer-frame-ppt1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\url.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

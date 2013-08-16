@@ -28,39 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.Menu_principal = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Contenedor = new System.Windows.Forms.SplitContainer();
+            this.btn_estadisticas = new System.Windows.Forms.Button();
+            this.btn_partidos = new System.Windows.Forms.Button();
+            this.btn_jugador = new System.Windows.Forms.Button();
+            this.btn_equipos = new System.Windows.Forms.Button();
+            this.btn_campeonatos = new System.Windows.Forms.Button();
+            this.pic_logo = new System.Windows.Forms.PictureBox();
+            this.Menu_principal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Contenedor)).BeginInit();
+            this.Contenedor.Panel1.SuspendLayout();
+            this.Contenedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // Menu_principal
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1408, 28);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.Menu_principal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivoToolStripMenuItem,
+            this.herramientasToolStripMenuItem});
+            this.Menu_principal.Location = new System.Drawing.Point(0, 0);
+            this.Menu_principal.Name = "Menu_principal";
+            this.Menu_principal.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.Menu_principal.Size = new System.Drawing.Size(1408, 28);
+            this.Menu_principal.TabIndex = 0;
+            this.Menu_principal.Text = "menuStrip1";
             // 
             // archivoToolStripMenuItem
             // 
@@ -77,171 +74,134 @@
             this.abrirToolStripMenuItem.Text = "Abrir";
             this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
             // 
-            // splitContainer1
+            // herramientasToolStripMenuItem
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 28);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
-            this.splitContainer1.Name = "splitContainer1";
+            this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.opcionesToolStripMenuItem});
+            this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
+            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.herramientasToolStripMenuItem.Text = "Herramientas";
             // 
-            // splitContainer1.Panel1
+            // opcionesToolStripMenuItem
             // 
-            this.splitContainer1.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.label3);
-            this.splitContainer1.Panel1.Controls.Add(this.label2);
-            this.splitContainer1.Panel1.Controls.Add(this.label1);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox2);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.button4);
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
+            this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(140, 24);
+            this.opcionesToolStripMenuItem.Text = "Opciones";
+            this.opcionesToolStripMenuItem.Click += new System.EventHandler(this.opcionesToolStripMenuItem_Click);
             // 
-            // splitContainer1.Panel2
+            // Contenedor
             // 
-            this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.splitContainer1.Panel2.Controls.Add(this.button6);
-            this.splitContainer1.Panel2.Controls.Add(this.button5);
-            this.splitContainer1.Panel2.Controls.Add(this.button2);
-            this.splitContainer1.Size = new System.Drawing.Size(1408, 734);
-            this.splitContainer1.SplitterDistance = 468;
-            this.splitContainer1.SplitterWidth = 5;
-            this.splitContainer1.TabIndex = 1;
+            this.Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Contenedor.IsSplitterFixed = true;
+            this.Contenedor.Location = new System.Drawing.Point(0, 28);
+            this.Contenedor.Margin = new System.Windows.Forms.Padding(4);
+            this.Contenedor.Name = "Contenedor";
             // 
-            // pictureBox1
+            // Contenedor.Panel1
             // 
-            this.pictureBox1.BackgroundImage = global::Campeonatos.Properties.Resources._709_logo_de_futeca;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 559);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(253, 174);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.Contenedor.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Contenedor.Panel1.BackgroundImage = global::Campeonatos.Properties.Resources.url;
+            this.Contenedor.Panel1.Controls.Add(this.btn_estadisticas);
+            this.Contenedor.Panel1.Controls.Add(this.btn_partidos);
+            this.Contenedor.Panel1.Controls.Add(this.btn_jugador);
+            this.Contenedor.Panel1.Controls.Add(this.btn_equipos);
+            this.Contenedor.Panel1.Controls.Add(this.btn_campeonatos);
+            this.Contenedor.Panel1.Controls.Add(this.pic_logo);
             // 
-            // label3
+            // Contenedor.Panel2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(-7, 295);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(442, 35);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "BIENVENIDO USUARIO X";
+            this.Contenedor.Panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Contenedor.Panel2.BackgroundImage = global::Campeonatos.Properties.Resources.Balones_de_Futbol;
+            this.Contenedor.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Contenedor.Size = new System.Drawing.Size(1408, 734);
+            this.Contenedor.SplitterDistance = 351;
+            this.Contenedor.SplitterWidth = 5;
+            this.Contenedor.TabIndex = 1;
             // 
-            // label2
+            // btn_estadisticas
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 146);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Password";
+            this.btn_estadisticas.Font = new System.Drawing.Font("Papyrus", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_estadisticas.Location = new System.Drawing.Point(50, 232);
+            this.btn_estadisticas.Name = "btn_estadisticas";
+            this.btn_estadisticas.Size = new System.Drawing.Size(251, 47);
+            this.btn_estadisticas.TabIndex = 11;
+            this.btn_estadisticas.Text = "Estadísticas";
+            this.btn_estadisticas.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // btn_partidos
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(39, 101);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 25);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Usuario";
+            this.btn_partidos.Font = new System.Drawing.Font("Papyrus", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_partidos.Location = new System.Drawing.Point(50, 179);
+            this.btn_partidos.Name = "btn_partidos";
+            this.btn_partidos.Size = new System.Drawing.Size(251, 47);
+            this.btn_partidos.TabIndex = 10;
+            this.btn_partidos.Text = "Partidos";
+            this.btn_partidos.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // btn_jugador
             // 
-            this.textBox2.Location = new System.Drawing.Point(153, 149);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(132, 22);
-            this.textBox2.TabIndex = 5;
+            this.btn_jugador.Font = new System.Drawing.Font("Papyrus", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_jugador.Location = new System.Drawing.Point(50, 126);
+            this.btn_jugador.Name = "btn_jugador";
+            this.btn_jugador.Size = new System.Drawing.Size(251, 47);
+            this.btn_jugador.TabIndex = 9;
+            this.btn_jugador.Text = "Jugadores";
+            this.btn_jugador.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // btn_equipos
             // 
-            this.textBox1.Location = new System.Drawing.Point(153, 103);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
-            this.textBox1.TabIndex = 4;
+            this.btn_equipos.Font = new System.Drawing.Font("Papyrus", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_equipos.Location = new System.Drawing.Point(50, 73);
+            this.btn_equipos.Name = "btn_equipos";
+            this.btn_equipos.Size = new System.Drawing.Size(251, 47);
+            this.btn_equipos.TabIndex = 8;
+            this.btn_equipos.Text = "Equipos";
+            this.btn_equipos.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_campeonatos
             // 
-            this.button4.Location = new System.Drawing.Point(153, 201);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 28);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Login";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_campeonatos.Font = new System.Drawing.Font("Papyrus", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_campeonatos.Location = new System.Drawing.Point(50, 20);
+            this.btn_campeonatos.Name = "btn_campeonatos";
+            this.btn_campeonatos.Size = new System.Drawing.Size(251, 47);
+            this.btn_campeonatos.TabIndex = 7;
+            this.btn_campeonatos.Text = "Campeonatos";
+            this.btn_campeonatos.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // pic_logo
             // 
-            this.button1.Location = new System.Drawing.Point(56, 17);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Lista Jugadores";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Papyrus", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(552, 295);
-            this.button6.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(259, 94);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Jugadores";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Papyrus", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(552, 471);
-            this.button5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(259, 94);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Equipos";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Papyrus", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(552, 135);
-            this.button2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(259, 94);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Torneos";
-            this.button2.UseVisualStyleBackColor = true;
+            this.pic_logo.BackColor = System.Drawing.Color.Transparent;
+            this.pic_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pic_logo.Image = global::Campeonatos.Properties.Resources._709_logo_de_futeca;
+            this.pic_logo.Location = new System.Drawing.Point(38, 560);
+            this.pic_logo.Margin = new System.Windows.Forms.Padding(4);
+            this.pic_logo.Name = "pic_logo";
+            this.pic_logo.Size = new System.Drawing.Size(253, 174);
+            this.pic_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_logo.TabIndex = 4;
+            this.pic_logo.TabStop = false;
             // 
             // Ventana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1408, 762);
-            this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.Contenedor);
+            this.Controls.Add(this.Menu_principal);
+            this.MainMenuStrip = this.Menu_principal;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ventana";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventana";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel1.PerformLayout();
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Ventana_Load);
+            this.SizeChanged += new System.EventHandler(this.Ventana_SizeChanged);
+            this.Menu_principal.ResumeLayout(false);
+            this.Menu_principal.PerformLayout();
+            this.Contenedor.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Contenedor)).EndInit();
+            this.Contenedor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,20 +209,17 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip Menu_principal;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
-        private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.SplitContainer Contenedor;
+        private System.Windows.Forms.PictureBox pic_logo;
+        private System.Windows.Forms.Button btn_estadisticas;
+        private System.Windows.Forms.Button btn_partidos;
+        private System.Windows.Forms.Button btn_jugador;
+        private System.Windows.Forms.Button btn_equipos;
+        private System.Windows.Forms.Button btn_campeonatos;
+        private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
     }
 }
