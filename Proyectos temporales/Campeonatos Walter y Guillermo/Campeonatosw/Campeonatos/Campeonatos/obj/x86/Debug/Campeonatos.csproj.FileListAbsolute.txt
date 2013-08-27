@@ -1,0 +1,54 @@
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Campeonatos.pdb
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.form_bienvenida.resources
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Properties.Resources.resources
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csproj.GenerateResource.Cache
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ventana.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\SQLiteConnect.dll
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\SQLiteConnect.pdb
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csprojResolveAssemblyReference.cache
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Configuración.resources
+C:\Users\Guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe.config
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Torneos.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Equipos.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Asignacion_torneo.resources
+C:\Users\Computer\Desktop\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe.config
+C:\Users\Computer\Desktop\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\Computer\Desktop\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe.config
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.pdb
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\System.Data.SQLite.dll
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\SQLiteConnect.pdb
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csprojResolveAssemblyReference.cache
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Asignacion_torneo.resources
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.form_bienvenida.resources
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Configuración.resources
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Equipos.resources
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Properties.Resources.resources
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Torneos.resources
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ventana.resources
+C:\Users\WalterIvan\Documents\Visual Studio 2010\Projects\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csproj.GenerateResource.Cache
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe.config
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.pdb
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\System.Data.SQLite.dll
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\SQLiteConnect.pdb
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Asignacion_torneo.resources
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.form_bienvenida.resources
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Configuración.resources
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Equipos.resources
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Properties.Resources.resources
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Torneos.resources
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ventana.resources
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\GenerateResource.write.1.tlog
