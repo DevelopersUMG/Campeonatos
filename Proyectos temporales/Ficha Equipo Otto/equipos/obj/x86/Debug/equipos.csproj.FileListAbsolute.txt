@@ -1,0 +1,22 @@
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\bin\Debug\equipos.exe
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\bin\Debug\equipos.pdb
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\obj\x86\Debug\equipos.Form1.resources
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\obj\x86\Debug\equipos.Properties.Resources.resources
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\obj\x86\Debug\equipos.exe
+C:\Users\OttoAlien\AppData\Local\Temporary Projects\equipos\obj\x86\Debug\equipos.pdb
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.exe
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.pdb
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\bin\Debug\equipos.exe
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\bin\Debug\equipos.pdb
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.Properties.Resources.resources
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OttoAlien\documents\visual studio 2010\Projects\equipos\equipos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\bin\Debug\SQLiteConnect.dll
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\bin\Debug\System.Data.SQLite.dll
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.jugadorescs.resources
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.crear_equipo.resources
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.ficha_equipo.resources

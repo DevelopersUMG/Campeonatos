@@ -1,0 +1,12 @@
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\bin\Release\equipos.exe
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\bin\Release\equipos.pdb
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\bin\Release\SQLiteConnect.dll
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\bin\Release\System.Data.SQLite.dll
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\equipos.Form1.resources
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\equipos.jugadorescs.resources
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\equipos.Properties.Resources.resources
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\equipos.exe
+C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Release\equipos.pdb
