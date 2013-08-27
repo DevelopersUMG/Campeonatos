@@ -1,4 +1,7 @@
-﻿using System;
+﻿//AUTORES:
+//WALTER QUIJADA 0901-10-934
+//GUILLERMO CANEL 0901-09-12084
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,20 +30,29 @@ namespace Campeonatos
 
         private void consultar_todos()
         {
-            ArrayList array = db.consultar("select idequipo,nombre from equipo where idcampeonato = 0");            
-            tblequiposizq.RowCount = array.Count;
-            tblequiposizq.ColumnCount = 2;
-            int r = 0;
-            foreach (Dictionary<string, string> d in array)
-            {
-                tblequiposizq.Rows[r].Cells[0].Value = d["idequipo"];
-                tblequiposizq.Rows[r].Cells[1].Value = d["nombre"];
-                r++;
-            }
-            tblequiposizq.Columns[0].Visible = false;
-
-            tblequiposizq.CurrentCell = tblequiposizq[1, 0];
-           
+            ArrayList array = db.consultar("select idequipo,nombre from equipo where idcampeonato = 0");
+            
+                          
+                tblequiposizq.RowCount = array.Count;
+                tblequiposizq.ColumnCount = 2;
+                int r = 0;
+                foreach (Dictionary<string, string> d in array)
+                {
+                    tblequiposizq.Rows[r].Cells[0].Value = d["idequipo"];
+                    tblequiposizq.Rows[r].Cells[1].Value = d["nombre"];
+                    r++;
+                }
+                tblequiposizq.Columns[0].Visible = false;
+                if (tblequiposizq.RowCount != 0)
+                {
+                    tblequiposizq.CurrentCell = tblequiposizq[1, 0];
+                }
+                else
+                {
+                    
+                }
+                
+            
         }
 
         private void consultar_campeonato()
@@ -125,7 +137,15 @@ namespace Campeonatos
                 db.actualizar(tabla, d, condicion);
                 
             }
+            //---//
+            Dictionary<string, string> d1 = new Dictionary<string, string>();
+            d1.Add("idcampeonato", "0");
+            for (int i = 0; i < tblequiposizq.RowCount; i++)
+            {
+                string condicion1 = "idequipo=" + tblequiposizq.Rows[i].Cells[0].Value;
+                db.actualizar(tabla, d1, condicion1);
 
+            }
            
             this.Close();
         }

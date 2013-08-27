@@ -61,6 +61,8 @@ namespace Campeonatos
         private void button2_Click(object sender, EventArgs e)
         {
             panel1.Visible = true;
+            txtnombretorneo.Text = "";
+            txtnombretorneo.Focus();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,7 +76,7 @@ namespace Campeonatos
             }
             else
             {
-                db.actualizar(tabla, dict, "nombre='" + tblcalendario[1, tblcalendario.CurrentRow.Index].Value+"'");/////////////
+                db.actualizar(tabla, dict, "idcampeonato='" + tblcalendario[0, tblcalendario.CurrentRow.Index].Value+"'");/////////////
             }
             modi = false;
             txtnombretorneo.Text = "";
@@ -86,7 +88,7 @@ namespace Campeonatos
             row = e.RowIndex + 1;
             if (e.ColumnIndex==4)
             {
-                string query = "select nombre,fecha_inicio,fecha_final from campeonato where nombre = '" + tblcalendario[0, tblcalendario.CurrentRow.Index].Value+"'";
+                string query = "select nombre,fecha_inicio,fecha_final from campeonato where idcampeonato = '" + tblcalendario[0, tblcalendario.CurrentRow.Index].Value+"'";
                 ArrayList array = db.consultar(query);
                 foreach (Dictionary<string,string> v in array)
                 {
@@ -104,12 +106,8 @@ namespace Campeonatos
                 {
                     int id = 0;
                     String ob = tblcalendario[1, tblcalendario.CurrentRow.Index].Value.ToString();
-                    string query = "select * from campeonato where nombre='" + ob+"'";
-                    ArrayList array = db.consultar(query);
-                    foreach (Dictionary<string, string> dict in array)
-                    {
-                        id= Convert.ToInt32(dict["idcampeonato"]);
-                    }
+                    //MessageBox.Show(tblcalendario[0, tblcalendario.CurrentRow.Index].Value.ToString());
+                    id = Convert.ToInt32(tblcalendario[0, tblcalendario.CurrentRow.Index].Value);
                     db.eliminar("campeonato", "idcampeonato=" + id);
   
                     MessageBox.Show("Registro eliminado","Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -119,8 +117,8 @@ namespace Campeonatos
             else if (e.ColumnIndex == 6)
             {
                 String valor = tblcalendario.Rows[e.RowIndex].Cells[0].Value.ToString();
-                MessageBox.Show(valor);
-                new Asignacion_torneo(row).ShowDialog();
+                //MessageBox.Show(valor);
+                new Asignacion_torneo(Convert.ToInt32(valor)).ShowDialog();
             }
         }
 
@@ -176,6 +174,12 @@ namespace Campeonatos
                     e.Handled = true;
                 }
            }
+        }
+
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
+            txtnombretorneo.Text = "";
         }
     }
 }

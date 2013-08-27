@@ -20,3 +20,5 @@ C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\bin\Deb
 C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.jugadorescs.resources
 C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.crear_equipo.resources
 C:\Users\OttoAlien\Documents\Visual Studio 2010\Projects\equipos\equipos\obj\x86\Debug\equipos.ficha_equipo.resources
+C:\Users\WalterIvan\Documents\GitHub\Campeonatos\Proyectos temporales\Ficha Equipo Otto\equipos\obj\x86\Debug\equipos.exe
+C:\Users\WalterIvan\Documents\GitHub\Campeonatos\Proyectos temporales\Ficha Equipo Otto\equipos\obj\x86\Debug\equipos.pdb

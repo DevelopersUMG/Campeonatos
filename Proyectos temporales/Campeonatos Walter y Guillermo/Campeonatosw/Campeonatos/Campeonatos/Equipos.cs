@@ -1,4 +1,7 @@
-﻿using System;
+﻿//AUTORES:
+//WALTER QUIJADA 0901-10-934
+//GUILLERMO CANEL 0901-09-12084
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,22 +26,22 @@ namespace Campeonatos
 
         public void consultar()
         {
-            dataGridView1.Columns.Clear();
-            dataGridView1.DataSource = db.consultarGrid("select idequipo,nombre,encargado,telefono,idcampeonato from equipo").DataSource;
+            tblequipo.Columns.Clear();
+            tblequipo.DataSource = db.consultarGrid("select idequipo,nombre,encargado,telefono,idcampeonato from equipo").DataSource;
 
             DataGridViewButtonColumn col = new DataGridViewButtonColumn();
             col.UseColumnTextForButtonValue = true;
             col.Text = "Editar";
             col.Name = "Edición";
-            dataGridView1.Columns.Add(col);
+            tblequipo.Columns.Add(col);
 
             col = new DataGridViewButtonColumn();
             col.UseColumnTextForButtonValue = true;
             col.Text = "Eliminar";
             col.Name = "Eliminación";
-            dataGridView1.Columns.Add(col);
+            tblequipo.Columns.Add(col);
 
-            dataGridView1.Columns[0].Visible = false;
+            tblequipo.Columns[0].Visible = false;
 
             panel1.Visible = false;
             limpiar();
@@ -46,9 +49,9 @@ namespace Campeonatos
 
         public void limpiar()
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
+            txtnombrequipo.Text = "";
+            txtencargado.Text = "";
+            txttelefono.Text = "";
         }
 
         private void Equipos_Load(object sender, EventArgs e)
@@ -59,7 +62,7 @@ namespace Campeonatos
         private void button2_Click(object sender, EventArgs e)
         {
             panel1.Visible = true;
-            textBox1.Focus();
+            txtnombrequipo.Focus();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -82,28 +85,28 @@ namespace Campeonatos
         {
             tabla = "equipo";
             dict = new Dictionary<string, string>();
-            dict.Add("nombre", textBox1.Text);
-            dict.Add("encargado", textBox2.Text);
-            dict.Add("telefono", textBox3.Text);
+            dict.Add("nombre", txtnombrequipo.Text);
+            dict.Add("encargado", txtencargado.Text);
+            dict.Add("telefono", txttelefono.Text);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             row = e.RowIndex + 1;
-            if (e.ColumnIndex == dataGridView1.Columns.Count - 2)
+            if (e.ColumnIndex == tblequipo.Columns.Count - 2)
             {
                 string query = "select nombre,encargado,telefono from equipo where idequipo = " + row;
                 System.Collections.ArrayList array = db.consultar(query);
                 foreach (Dictionary<string, string> v in array)
                 {
-                    textBox1.Text = v["nombre"];
-                    textBox2.Text = v["encargado"];
-                    textBox3.Text = v["telefono"];
+                    txtnombrequipo.Text = v["nombre"];
+                    txtencargado.Text = v["encargado"];
+                    txttelefono.Text = v["telefono"];
                     modi = true;
                 }
                 panel1.Visible = true;
             }
-            else if (e.ColumnIndex == dataGridView1.Columns.Count - 1)
+            else if (e.ColumnIndex == tblequipo.Columns.Count - 1)
             {
                 if (MessageBox.Show("Estas seguro de eliminar este registro?", "Eliminar registro", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {

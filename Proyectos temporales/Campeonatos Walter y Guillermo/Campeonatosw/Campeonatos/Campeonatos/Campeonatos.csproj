@@ -169,6 +169,9 @@
   <ItemGroup>
     <None Include="Resources\eliminar.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skateboard-you-can-free-abstract-soccer-frame-ppt.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

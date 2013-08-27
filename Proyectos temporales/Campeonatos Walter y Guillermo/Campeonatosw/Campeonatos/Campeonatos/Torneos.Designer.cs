@@ -38,6 +38,7 @@
             this.txtnombretorneo = new System.Windows.Forms.TextBox();
             this.btnnuevocalendario = new System.Windows.Forms.Button();
             this.tblcalendario = new System.Windows.Forms.DataGridView();
+            this.btncancelar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tblcalendario)).BeginInit();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btncancelar);
             this.panel1.Controls.Add(this.btnguardar);
             this.panel1.Controls.Add(this.txtfechafinal);
             this.panel1.Controls.Add(this.lblfechafinal);
@@ -64,15 +66,15 @@
             this.panel1.Location = new System.Drawing.Point(10, 349);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(414, 93);
+            this.panel1.Size = new System.Drawing.Size(423, 93);
             this.panel1.TabIndex = 1;
             // 
             // btnguardar
             // 
-            this.btnguardar.Location = new System.Drawing.Point(340, 33);
+            this.btnguardar.Location = new System.Drawing.Point(343, 16);
             this.btnguardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(56, 45);
+            this.btnguardar.Size = new System.Drawing.Size(64, 30);
             this.btnguardar.TabIndex = 6;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
@@ -125,10 +127,10 @@
             // 
             // btnnuevocalendario
             // 
-            this.btnnuevocalendario.Location = new System.Drawing.Point(10, 11);
+            this.btnnuevocalendario.Location = new System.Drawing.Point(539, 338);
             this.btnnuevocalendario.Margin = new System.Windows.Forms.Padding(2);
             this.btnnuevocalendario.Name = "btnnuevocalendario";
-            this.btnnuevocalendario.Size = new System.Drawing.Size(56, 19);
+            this.btnnuevocalendario.Size = new System.Drawing.Size(72, 28);
             this.btnnuevocalendario.TabIndex = 2;
             this.btnnuevocalendario.Text = "Nuevo";
             this.btnnuevocalendario.UseVisualStyleBackColor = true;
@@ -150,10 +152,22 @@
             this.tblcalendario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.tblcalendario.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView1_CellPainting);
             // 
+            // btncancelar
+            // 
+            this.btncancelar.Location = new System.Drawing.Point(343, 50);
+            this.btncancelar.Margin = new System.Windows.Forms.Padding(2);
+            this.btncancelar.Name = "btncancelar";
+            this.btncancelar.Size = new System.Drawing.Size(64, 30);
+            this.btncancelar.TabIndex = 7;
+            this.btncancelar.Text = "Cancelar";
+            this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
+            // 
             // Torneos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Campeonatos.Properties.Resources.skateboard_you_can_free_abstract_soccer_frame_ppt1;
             this.ClientSize = new System.Drawing.Size(622, 448);
             this.Controls.Add(this.tblcalendario);
             this.Controls.Add(this.btnnuevocalendario);
@@ -181,5 +195,6 @@
         private System.Windows.Forms.TextBox txtnombretorneo;
         private System.Windows.Forms.Button btnnuevocalendario;
         private System.Windows.Forms.DataGridView tblcalendario;
+        private System.Windows.Forms.Button btncancelar;
     }
 }

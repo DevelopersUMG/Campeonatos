@@ -118,14 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="1600_1200_201006100948001125787" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1600_1200_2010061009480011257872.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="url" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\url.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="709-logo-de-futeca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\709-logo-de-futeca2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="peloa fut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\peloa fut2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="soccer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soccer2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="balon-de-futbol-sobre-fondo-verde-con-resumen-mapa-del-mundo-africa-pixmac-icono-45835027" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\balon-de-futbol-sobre-fondo-verde-con-resumen-mapa-del-mundo-africa-pixmac-icono-458350272.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,31 +130,37 @@
   <data name="champions-league-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\champions-league-logo2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="soccer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\soccer2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Balones de Futbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Balones de Futbol2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1016047_266100183533203_1598393813_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1016047_266100183533203_1598393813_n2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="adidas_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adidas_logo12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="skateboard-you-can-free-abstract-soccer-frame-ppt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\skateboard-you-can-free-abstract-soccer-frame-ppt1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1600_1200_201006100948001125787" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1600_1200_2010061009480011257872.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1016047_266100183533203_1598393813_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1016047_266100183533203_1598393813_n2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="709-logo-de-futeca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\709-logo-de-futeca2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="url" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\url.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Balones de Futbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Balones de Futbol2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eliminar.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peloa fut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peloa fut2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editar.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eliminar.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="skateboard-you-can-free-abstract-soccer-frame-ppt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skateboard-you-can-free-abstract-soccer-frame-ppt1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skateboard-you-can-free-abstract-soccer-frame-ppt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skateboard-you-can-free-abstract-soccer-frame-ppt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
