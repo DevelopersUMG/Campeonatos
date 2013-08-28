@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Calendario">
+      <HintPath>..\..\Calendario\Calendario\bin\Debug\Calendario.dll</HintPath>
+    </Reference>
     <Reference Include="SQLiteConnect">
       <HintPath>..\..\SQLiteConnect\SQLiteConnect\bin\Debug\SQLiteConnect.dll</HintPath>
     </Reference>
@@ -49,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asignacion_torneo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asignacion_torneo.Designer.cs">
+      <DependentUpon>Asignacion_torneo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bienvenida.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,20 +70,107 @@
     <Compile Include="Configuración.Designer.cs">
       <DependentUpon>Configuración.cs</DependentUpon>
     </Compile>
+    <Compile Include="crear_equipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crear_equipo.designer.cs">
+      <DependentUpon>crear_equipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipos.Designer.cs">
+      <DependentUpon>Equipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ficha_equipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ficha_equipo.designer.cs">
+      <DependentUpon>ficha_equipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_consulta.designer.cs">
+      <DependentUpon>Frm_consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_edicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_edicion.designer.cs">
+      <DependentUpon>Frm_edicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insertar_jugador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insertar_jugador.designer.cs">
+      <DependentUpon>frm_insertar_jugador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_menu.designer.cs">
+      <DependentUpon>Frm_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Partidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Partidos.Designer.cs">
+      <DependentUpon>Partidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ruta_base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ruta_base.Designer.cs">
+      <DependentUpon>Ruta_base.cs</DependentUpon>
+    </Compile>
     <Compile Include="Settings.cs" />
+    <Compile Include="Torneos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Torneos.Designer.cs">
+      <DependentUpon>Torneos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventana.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ventana.designer.cs">
       <DependentUpon>Ventana.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Asignacion_torneo.resx">
+      <DependentUpon>Asignacion_torneo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bienvenida.resx">
       <DependentUpon>Bienvenida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Configuración.resx">
       <DependentUpon>Configuración.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crear_equipo.resx">
+      <DependentUpon>crear_equipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipos.resx">
+      <DependentUpon>Equipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ficha_equipo.resx">
+      <DependentUpon>ficha_equipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_consulta.resx">
+      <DependentUpon>Frm_consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_edicion.resx">
+      <DependentUpon>Frm_edicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insertar_jugador.resx">
+      <DependentUpon>frm_insertar_jugador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_menu.resx">
+      <DependentUpon>Frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Partidos.resx">
+      <DependentUpon>Partidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,6 +182,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Ruta_base.resx">
+      <DependentUpon>Ruta_base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Torneos.resx">
+      <DependentUpon>Torneos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventana.resx">
       <DependentUpon>Ventana.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +237,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\url.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camisola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equipo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondodestas.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

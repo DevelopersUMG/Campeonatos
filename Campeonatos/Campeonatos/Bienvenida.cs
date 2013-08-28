@@ -1,4 +1,7 @@
-﻿using System;
+﻿//AUTOR:
+//Luis Angel Ramos Gómez 0901-09-2113
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

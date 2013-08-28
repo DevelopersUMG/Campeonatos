@@ -15,6 +15,7 @@ namespace Campeonatos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Partidos(1,"Hoy"));
             Application.Run(new Ventana());
         }
     }

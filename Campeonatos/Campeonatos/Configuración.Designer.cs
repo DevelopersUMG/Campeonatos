@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.tab_configuraciones = new System.Windows.Forms.TabControl();
+            this.Abrir_archivo = new System.Windows.Forms.OpenFileDialog();
             this.tab_bienvenida = new System.Windows.Forms.TabPage();
             this.btn_sig_1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_finalizar = new System.Windows.Forms.Button();
-            this.Abrir_archivo = new System.Windows.Forms.OpenFileDialog();
             this.tab_configuraciones.SuspendLayout();
             this.tab_bienvenida.SuspendLayout();
             this.tab_administrador.SuspendLayout();
@@ -76,6 +76,11 @@
             this.tab_configuraciones.SelectedIndex = 0;
             this.tab_configuraciones.Size = new System.Drawing.Size(543, 462);
             this.tab_configuraciones.TabIndex = 0;
+            // 
+            // Abrir_archivo
+            // 
+            this.Abrir_archivo.FileName = "openFileDialog1";
+            this.Abrir_archivo.FileOk += new System.ComponentModel.CancelEventHandler(this.Abrir_archivo_FileOk);
             // 
             // tab_bienvenida
             // 
@@ -245,6 +250,7 @@
             this.txt_path.Name = "txt_path";
             this.txt_path.Size = new System.Drawing.Size(516, 30);
             this.txt_path.TabIndex = 5;
+            this.txt_path.TextChanged += new System.EventHandler(this.txt_path_TextChanged);
             // 
             // label2
             // 
@@ -254,6 +260,7 @@
             this.label2.Size = new System.Drawing.Size(459, 25);
             this.label2.TabIndex = 4;
             this.label2.Text = "La dirección donde está localizada la base de datos";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btn_sig_3
             // 
@@ -355,11 +362,6 @@
             this.btn_finalizar.Text = "Finalizar";
             this.btn_finalizar.UseVisualStyleBackColor = true;
             this.btn_finalizar.Click += new System.EventHandler(this.btn_finalizar_Click);
-            // 
-            // Abrir_archivo
-            // 
-            this.Abrir_archivo.FileName = "openFileDialog1";
-            this.Abrir_archivo.FileOk += new System.ComponentModel.CancelEventHandler(this.Abrir_archivo_FileOk);
             // 
             // Configuración
             // 

@@ -152,6 +152,16 @@ namespace Campeonatos
                 txt_logotipo.Text = Abrir_archivo.FileName;
             }
         }
+
+        private void txt_path_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
        
     }
 }
