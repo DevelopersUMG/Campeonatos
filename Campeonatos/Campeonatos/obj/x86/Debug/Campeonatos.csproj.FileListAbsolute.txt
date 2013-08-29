@@ -1,0 +1,29 @@
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Campeonatos.pdb
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.form_bienvenida.resources
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Properties.Resources.resources
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csproj.GenerateResource.Cache
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+c:\users\guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ventana.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\SQLiteConnect.dll
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\SQLiteConnect.pdb
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csprojResolveAssemblyReference.cache
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Configuración.resources
+C:\Users\Guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe.config
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Torneos.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Equipos.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Asignacion_torneo.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ruta_base.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.crear_equipo.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.ficha_equipo.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Partidos.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Calendario.dll
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\bin\Debug\Calendario.pdb
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Frm_consulta.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Frm_edicion.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.frm_insertar_jugador.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Frm_menu_jugadores.resources
+C:\Users\Guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ficha_partido.resources
