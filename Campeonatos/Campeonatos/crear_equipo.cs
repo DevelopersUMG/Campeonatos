@@ -75,9 +75,12 @@ namespace Campeonatos
         }
 
         private void button_ver_jugadores_Click(object sender, EventArgs e)
-        {
+        {	
+			if ( equipo_seleccionado_text.text = "";
+			{
             ficha_equipo f = new ficha_equipo(id_equipo, nombre, encargado, telefono);
             f.ShowDialog();
+			}
         }
 
         

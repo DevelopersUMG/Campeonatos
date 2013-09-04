@@ -35,7 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.agregar_btn = new System.Windows.Forms.Button();
-            this.crear_equipo_btn = new System.Windows.Forms.Button();
+            this.cerrar_ficha_btn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label_encargado = new System.Windows.Forms.Label();
@@ -44,9 +44,9 @@
             this.quitar_btn = new System.Windows.Forms.Button();
             this.buscar_jugador_btn = new System.Windows.Forms.Button();
             this.buscar_buscar = new System.Windows.Forms.TextBox();
-            this.telefono_text = new System.Windows.Forms.TextBox();
-            this.encargado_text = new System.Windows.Forms.TextBox();
-            this.nombre_equipo_text = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid_bd_jugadores)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid_lista_jugadores)).BeginInit();
@@ -112,7 +112,7 @@
             // agregar_btn
             // 
             this.agregar_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agregar_btn.Location = new System.Drawing.Point(393, 250);
+            this.agregar_btn.Location = new System.Drawing.Point(389, 320);
             this.agregar_btn.Name = "agregar_btn";
             this.agregar_btn.Size = new System.Drawing.Size(75, 23);
             this.agregar_btn.TabIndex = 5;
@@ -120,15 +120,16 @@
             this.agregar_btn.UseVisualStyleBackColor = true;
             this.agregar_btn.Click += new System.EventHandler(this.button_agregar_Click);
             // 
-            // crear_equipo_btn
+            // cerrar_ficha_btn
             // 
-            this.crear_equipo_btn.Location = new System.Drawing.Point(402, 27);
-            this.crear_equipo_btn.Name = "crear_equipo_btn";
-            this.crear_equipo_btn.Size = new System.Drawing.Size(75, 23);
-            this.crear_equipo_btn.TabIndex = 6;
-            this.crear_equipo_btn.Text = "Crear Ficha";
-            this.crear_equipo_btn.UseVisualStyleBackColor = true;
-            this.crear_equipo_btn.Click += new System.EventHandler(this.button_crear_equipo_Click);
+            this.cerrar_ficha_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrar_ficha_btn.Location = new System.Drawing.Point(368, 226);
+            this.cerrar_ficha_btn.Name = "cerrar_ficha_btn";
+            this.cerrar_ficha_btn.Size = new System.Drawing.Size(111, 58);
+            this.cerrar_ficha_btn.TabIndex = 6;
+            this.cerrar_ficha_btn.Text = "Cerrar Ficha";
+            this.cerrar_ficha_btn.UseVisualStyleBackColor = true;
+            this.cerrar_ficha_btn.Click += new System.EventHandler(this.button_crear_equipo_Click);
             // 
             // label3
             // 
@@ -172,7 +173,7 @@
             // 
             // nuevo_jugador_btn
             // 
-            this.nuevo_jugador_btn.Location = new System.Drawing.Point(387, 336);
+            this.nuevo_jugador_btn.Location = new System.Drawing.Point(378, 409);
             this.nuevo_jugador_btn.Name = "nuevo_jugador_btn";
             this.nuevo_jugador_btn.Size = new System.Drawing.Size(90, 37);
             this.nuevo_jugador_btn.TabIndex = 14;
@@ -183,7 +184,7 @@
             // quitar_btn
             // 
             this.quitar_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quitar_btn.Location = new System.Drawing.Point(393, 279);
+            this.quitar_btn.Location = new System.Drawing.Point(389, 349);
             this.quitar_btn.Name = "quitar_btn";
             this.quitar_btn.Size = new System.Drawing.Size(75, 23);
             this.quitar_btn.TabIndex = 15;
@@ -194,48 +195,49 @@
             // 
             // buscar_jugador_btn
             // 
-            this.buscar_jugador_btn.Location = new System.Drawing.Point(393, 393);
+            this.buscar_jugador_btn.Location = new System.Drawing.Point(393, 476);
             this.buscar_jugador_btn.Name = "buscar_jugador_btn";
             this.buscar_jugador_btn.Size = new System.Drawing.Size(75, 23);
             this.buscar_jugador_btn.TabIndex = 16;
             this.buscar_jugador_btn.Text = "Buscar";
             this.buscar_jugador_btn.UseVisualStyleBackColor = true;
+            this.buscar_jugador_btn.Visible = false;
             this.buscar_jugador_btn.Click += new System.EventHandler(this.button_buscar_jugador_Click);
             // 
             // buscar_buscar
             // 
-            this.buscar_buscar.Location = new System.Drawing.Point(393, 437);
+            this.buscar_buscar.Location = new System.Drawing.Point(393, 505);
             this.buscar_buscar.Name = "buscar_buscar";
             this.buscar_buscar.Size = new System.Drawing.Size(100, 20);
             this.buscar_buscar.TabIndex = 17;
+            this.buscar_buscar.Visible = false;
             // 
-            // telefono_text
+            // label5
             // 
-            this.telefono_text.BackColor = System.Drawing.Color.YellowGreen;
-            this.telefono_text.Enabled = false;
-            this.telefono_text.Location = new System.Drawing.Point(161, 103);
-            this.telefono_text.Name = "telefono_text";
-            this.telefono_text.Size = new System.Drawing.Size(100, 20);
-            this.telefono_text.TabIndex = 12;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(155, 18);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 31);
+            this.label5.TabIndex = 18;
             // 
-            // encargado_text
+            // label6
             // 
-            this.encargado_text.BackColor = System.Drawing.Color.YellowGreen;
-            this.encargado_text.Enabled = false;
-            this.encargado_text.Location = new System.Drawing.Point(161, 66);
-            this.encargado_text.Name = "encargado_text";
-            this.encargado_text.Size = new System.Drawing.Size(100, 20);
-            this.encargado_text.TabIndex = 10;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(156, 54);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 31);
+            this.label6.TabIndex = 19;
             // 
-            // nombre_equipo_text
+            // label7
             // 
-            this.nombre_equipo_text.BackColor = System.Drawing.Color.YellowGreen;
-            this.nombre_equipo_text.Enabled = false;
-            this.nombre_equipo_text.Location = new System.Drawing.Point(161, 27);
-            this.nombre_equipo_text.Name = "nombre_equipo_text";
-            this.nombre_equipo_text.Size = new System.Drawing.Size(100, 20);
-            this.nombre_equipo_text.TabIndex = 7;
-            this.nombre_equipo_text.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(156, 92);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 31);
+            this.label7.TabIndex = 20;
             // 
             // ficha_equipo
             // 
@@ -244,18 +246,18 @@
             this.BackgroundImage = global::equipos.Properties.Resources.fondo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(892, 547);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.buscar_buscar);
             this.Controls.Add(this.buscar_jugador_btn);
             this.Controls.Add(this.quitar_btn);
             this.Controls.Add(this.nuevo_jugador_btn);
             this.Controls.Add(this.Label_telefono);
-            this.Controls.Add(this.telefono_text);
             this.Controls.Add(this.label_encargado);
-            this.Controls.Add(this.encargado_text);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.nombre_equipo_text);
-            this.Controls.Add(this.crear_equipo_btn);
+            this.Controls.Add(this.cerrar_ficha_btn);
             this.Controls.Add(this.agregar_btn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -282,7 +284,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button agregar_btn;
-        private System.Windows.Forms.Button crear_equipo_btn;
+        private System.Windows.Forms.Button cerrar_ficha_btn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label_encargado;
@@ -291,9 +293,9 @@
         private System.Windows.Forms.Button quitar_btn;
         private System.Windows.Forms.Button buscar_jugador_btn;
         private System.Windows.Forms.TextBox buscar_buscar;
-        private System.Windows.Forms.TextBox telefono_text;
-        private System.Windows.Forms.TextBox encargado_text;
-        private System.Windows.Forms.TextBox nombre_equipo_text;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
