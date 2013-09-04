@@ -83,7 +83,7 @@ namespace Campeonatos
             }
             else
             {
-                db.actualizar(tabla, dict, "idcampeonato='" + tblcalendario[4, tblcalendario.CurrentRow.Index].Value+"'");/////////////
+                db.actualizar(tabla, dict, "idcampeonato='" + tblcalendario.CurrentRow.Cells["idcampeonato"].Value + "'");/////////////
             }
             modi = false;
             txtnombretorneo.Text = "";
@@ -105,6 +105,7 @@ namespace Campeonatos
                     modi = true;
                 }
                 panel1.Visible = true;
+                txtnombretorneo.Focus();
 
             }
             else if (this.tblcalendario.Columns[e.ColumnIndex].Name == "Eliminación")
