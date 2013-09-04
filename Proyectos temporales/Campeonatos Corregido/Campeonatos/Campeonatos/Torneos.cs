@@ -95,7 +95,7 @@ namespace Campeonatos
             row = e.RowIndex + 1;
             if (this.tblcalendario.Columns[e.ColumnIndex].Name == "Edición")
             {
-                string query = "select nombre,fecha_inicio,fecha_final from campeonato where idcampeonato = '" + tblcalendario[4, tblcalendario.CurrentRow.Index].Value + "'";
+                string query = "select nombre,fecha_inicio,fecha_final from campeonato where idcampeonato = '" + tblcalendario.CurrentRow.Cells["idcampeonato"].Value + "'";
                 ArrayList array = db.consultar(query);
                 foreach (Dictionary<string, string> v in array)
                 {
