@@ -25,35 +25,51 @@ namespace WindowsFormsApplication1
         private void Frm_consulta_Load(object sender, EventArgs e)
         {
             //string query = "select * from jugador";
-           
+            grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador").DataSource;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
             //string query = "select * from jugador";
-            grid1.DataSource = db.consultarGrid("select nombre,telefono,direccion from jugador").DataSource;
+            grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador").DataSource;
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+       // private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        //{
+           
+        //}
+
+        //private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        //{
+
+        //}
+
+        //private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        //{
+            
+        //}
+
+        private void rdb_nombre_CheckedChanged(object sender, EventArgs e)
         {
-            grid1.DataSource = db.consultarGrid("select * from jugador order by nombre").DataSource;
+             grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador order by nombre").DataSource;
         }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        private void rdb_telefono_CheckedChanged(object sender, EventArgs e)
         {
-            grid1.DataSource = db.consultarGrid("select * from jugador order by direccion").DataSource;
+        grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador order by direccion").DataSource;
         }
 
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        private void rdb_direccion_CheckedChanged(object sender, EventArgs e)
         {
-            grid1.DataSource = db.consultarGrid("select * from jugador order by telefono").DataSource;
+            grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador order by telefono").DataSource;
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            grid1.DataSource = db.consultarGrid("select * from jugador").DataSource;
-        }
+       
+
+      
+
+        
 
         
     }

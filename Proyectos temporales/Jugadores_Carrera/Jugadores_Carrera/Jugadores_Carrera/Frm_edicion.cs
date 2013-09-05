@@ -25,6 +25,7 @@ namespace WindowsFormsApplication1
         {
           //String query =  "select * from syscolumns where id = object_id('jugador')";
           //comboBox1.DataSource = db.consultarGrid(query).DataSource; 
+            grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador").DataSource;
         }
 
       public void llenacombobox()
@@ -40,6 +41,20 @@ namespace WindowsFormsApplication1
             //comboBox1.ValueMember = "Nombre_Anime";
       }
 
+      private void rdb_nombre_CheckedChanged(object sender, EventArgs e)
+      {
+          grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador order by nombre").DataSource;
+      }
+
+      private void rdb_telefono_CheckedChanged(object sender, EventArgs e)
+      {
+          grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador order by direccion").DataSource;
+      }
+
+      private void rdb_direccion_CheckedChanged(object sender, EventArgs e)
+      {
+          grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador order by telefono").DataSource;
+      }
         
     }
 }

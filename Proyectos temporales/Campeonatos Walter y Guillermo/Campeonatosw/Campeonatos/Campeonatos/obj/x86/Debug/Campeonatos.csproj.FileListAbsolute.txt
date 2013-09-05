@@ -52,3 +52,6 @@ C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonato
 C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ventana.resources
 C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Computer\Desktop\Campeonatosquijada\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\evelyn\Documents\GitHub\Campeonatos\Proyectos temporales\Campeonatos Walter y Guillermo\Campeonatosw\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe.config
+C:\Users\evelyn\Documents\GitHub\Campeonatos\Proyectos temporales\Campeonatos Walter y Guillermo\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\evelyn\Documents\GitHub\Campeonatos\Proyectos temporales\Campeonatos Walter y Guillermo\Campeonatosw\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
