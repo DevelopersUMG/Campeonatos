@@ -35,10 +35,10 @@
             this.txtencargado = new System.Windows.Forms.TextBox();
             this.txttelefono = new System.Windows.Forms.TextBox();
             this.edicion_pnl = new System.Windows.Forms.Panel();
+            this.cancelar_btn = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.tblequipo = new System.Windows.Forms.DataGridView();
             this.btnnuevo = new System.Windows.Forms.Button();
-            this.cancelar_btn = new System.Windows.Forms.Button();
             this.edicion_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tblequipo)).BeginInit();
             this.SuspendLayout();
@@ -46,56 +46,63 @@
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
-            this.lblnombre.Location = new System.Drawing.Point(12, 11);
+            this.lblnombre.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombre.Location = new System.Drawing.Point(8, 9);
+            this.lblnombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblnombre.Name = "lblnombre";
-            this.lblnombre.Size = new System.Drawing.Size(132, 17);
+            this.lblnombre.Size = new System.Drawing.Size(115, 16);
             this.lblnombre.TabIndex = 0;
             this.lblnombre.Text = "Nombre del equipo:";
             // 
             // lblencargado
             // 
             this.lblencargado.AutoSize = true;
-            this.lblencargado.Location = new System.Drawing.Point(11, 42);
+            this.lblencargado.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblencargado.Location = new System.Drawing.Point(8, 34);
+            this.lblencargado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblencargado.Name = "lblencargado";
-            this.lblencargado.Size = new System.Drawing.Size(81, 17);
+            this.lblencargado.Size = new System.Drawing.Size(69, 16);
             this.lblencargado.TabIndex = 1;
             this.lblencargado.Text = "Encargado:";
             // 
             // lbltelefono
             // 
             this.lbltelefono.AutoSize = true;
-            this.lbltelefono.Location = new System.Drawing.Point(15, 70);
+            this.lbltelefono.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltelefono.Location = new System.Drawing.Point(8, 60);
+            this.lbltelefono.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltelefono.Name = "lbltelefono";
-            this.lbltelefono.Size = new System.Drawing.Size(68, 17);
+            this.lbltelefono.Size = new System.Drawing.Size(61, 16);
             this.lbltelefono.TabIndex = 2;
             this.lbltelefono.Text = "Teléfono:";
             // 
             // txtnombrequipo
             // 
-            this.txtnombrequipo.Location = new System.Drawing.Point(151, 11);
-            this.txtnombrequipo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtnombrequipo.Location = new System.Drawing.Point(123, 9);
+            this.txtnombrequipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtnombrequipo.Name = "txtnombrequipo";
-            this.txtnombrequipo.Size = new System.Drawing.Size(232, 22);
+            this.txtnombrequipo.Size = new System.Drawing.Size(175, 20);
             this.txtnombrequipo.TabIndex = 3;
             // 
             // txtencargado
             // 
-            this.txtencargado.Location = new System.Drawing.Point(151, 39);
-            this.txtencargado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtencargado.Location = new System.Drawing.Point(123, 34);
+            this.txtencargado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtencargado.Name = "txtencargado";
-            this.txtencargado.Size = new System.Drawing.Size(232, 22);
+            this.txtencargado.Size = new System.Drawing.Size(175, 20);
             this.txtencargado.TabIndex = 4;
             // 
             // txttelefono
             // 
-            this.txttelefono.Location = new System.Drawing.Point(151, 66);
-            this.txttelefono.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txttelefono.Location = new System.Drawing.Point(123, 58);
+            this.txttelefono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txttelefono.Name = "txttelefono";
-            this.txttelefono.Size = new System.Drawing.Size(232, 22);
+            this.txttelefono.Size = new System.Drawing.Size(175, 20);
             this.txttelefono.TabIndex = 5;
             // 
             // edicion_pnl
             // 
+            this.edicion_pnl.BackColor = System.Drawing.Color.Transparent;
             this.edicion_pnl.Controls.Add(this.cancelar_btn);
             this.edicion_pnl.Controls.Add(this.btnguardar);
             this.edicion_pnl.Controls.Add(this.lblnombre);
@@ -104,18 +111,31 @@
             this.edicion_pnl.Controls.Add(this.txtencargado);
             this.edicion_pnl.Controls.Add(this.lbltelefono);
             this.edicion_pnl.Controls.Add(this.txtnombrequipo);
-            this.edicion_pnl.Location = new System.Drawing.Point(12, 406);
-            this.edicion_pnl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.edicion_pnl.Location = new System.Drawing.Point(9, 330);
+            this.edicion_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.edicion_pnl.Name = "edicion_pnl";
-            this.edicion_pnl.Size = new System.Drawing.Size(599, 100);
+            this.edicion_pnl.Size = new System.Drawing.Size(449, 81);
             this.edicion_pnl.TabIndex = 6;
+            // 
+            // cancelar_btn
+            // 
+            this.cancelar_btn.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancelar_btn.Location = new System.Drawing.Point(375, 52);
+            this.cancelar_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cancelar_btn.Name = "cancelar_btn";
+            this.cancelar_btn.Size = new System.Drawing.Size(72, 29);
+            this.cancelar_btn.TabIndex = 9;
+            this.cancelar_btn.Text = "Cancelar";
+            this.cancelar_btn.UseVisualStyleBackColor = true;
+            this.cancelar_btn.Click += new System.EventHandler(this.cancelar_btn_Click);
             // 
             // btnguardar
             // 
-            this.btnguardar.Location = new System.Drawing.Point(419, 64);
-            this.btnguardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnguardar.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnguardar.Location = new System.Drawing.Point(311, 52);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(75, 23);
+            this.btnguardar.Size = new System.Drawing.Size(59, 29);
             this.btnguardar.TabIndex = 6;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
@@ -127,47 +147,37 @@
             this.tblequipo.AllowUserToDeleteRows = false;
             this.tblequipo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tblequipo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tblequipo.Location = new System.Drawing.Point(12, 42);
-            this.tblequipo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tblequipo.Location = new System.Drawing.Point(9, 34);
+            this.tblequipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tblequipo.Name = "tblequipo";
             this.tblequipo.ReadOnly = true;
             this.tblequipo.RowTemplate.Height = 24;
-            this.tblequipo.Size = new System.Drawing.Size(599, 342);
+            this.tblequipo.Size = new System.Drawing.Size(449, 278);
             this.tblequipo.TabIndex = 7;
             this.tblequipo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnnuevo
             // 
-            this.btnnuevo.Location = new System.Drawing.Point(539, 4);
-            this.btnnuevo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnnuevo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnuevo.Location = new System.Drawing.Point(404, 3);
+            this.btnnuevo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnnuevo.Name = "btnnuevo";
-            this.btnnuevo.Size = new System.Drawing.Size(76, 33);
+            this.btnnuevo.Size = new System.Drawing.Size(57, 27);
             this.btnnuevo.TabIndex = 8;
             this.btnnuevo.Text = "Nuevo";
             this.btnnuevo.UseVisualStyleBackColor = true;
             this.btnnuevo.Click += new System.EventHandler(this.button2_Click);
             // 
-            // cancelar_btn
-            // 
-            this.cancelar_btn.Location = new System.Drawing.Point(500, 64);
-            this.cancelar_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cancelar_btn.Name = "cancelar_btn";
-            this.cancelar_btn.Size = new System.Drawing.Size(75, 23);
-            this.cancelar_btn.TabIndex = 9;
-            this.cancelar_btn.Text = "Cancelar";
-            this.cancelar_btn.UseVisualStyleBackColor = true;
-            this.cancelar_btn.Click += new System.EventHandler(this.cancelar_btn_Click);
-            // 
             // Equipos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Campeonatos.Properties.Resources.skateboard_you_can_free_abstract_soccer_frame_ppt;
-            this.ClientSize = new System.Drawing.Size(629, 544);
+            this.ClientSize = new System.Drawing.Size(472, 442);
             this.Controls.Add(this.btnnuevo);
             this.Controls.Add(this.tblequipo);
             this.Controls.Add(this.edicion_pnl);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Equipos";
             this.Text = "Equipos";
             this.Load += new System.EventHandler(this.Equipos_Load);

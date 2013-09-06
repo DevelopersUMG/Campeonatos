@@ -45,11 +45,11 @@
             // 
             this.torneo_lbl.AutoSize = true;
             this.torneo_lbl.BackColor = System.Drawing.Color.Transparent;
-            this.torneo_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.torneo_lbl.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.torneo_lbl.Location = new System.Drawing.Point(16, 16);
             this.torneo_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.torneo_lbl.Name = "torneo_lbl";
-            this.torneo_lbl.Size = new System.Drawing.Size(82, 24);
+            this.torneo_lbl.Size = new System.Drawing.Size(69, 20);
             this.torneo_lbl.TabIndex = 0;
             this.torneo_lbl.Text = "Torneo: ";
             // 
@@ -57,11 +57,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(21, 69);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 20);
+            this.label1.Size = new System.Drawing.Size(69, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Equipos:";
             // 
@@ -83,11 +83,13 @@
             // total_eq_lbl
             // 
             this.total_eq_lbl.AutoSize = true;
-            this.total_eq_lbl.BackColor = System.Drawing.Color.White;
+            this.total_eq_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.total_eq_lbl.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total_eq_lbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.total_eq_lbl.Location = new System.Drawing.Point(35, 674);
             this.total_eq_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.total_eq_lbl.Name = "total_eq_lbl";
-            this.total_eq_lbl.Size = new System.Drawing.Size(142, 20);
+            this.total_eq_lbl.Size = new System.Drawing.Size(137, 20);
             this.total_eq_lbl.TabIndex = 3;
             this.total_eq_lbl.Text = "Total de equipos: ";
             // 
@@ -117,6 +119,7 @@
             // 
             // generar_btn
             // 
+            this.generar_btn.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.generar_btn.Location = new System.Drawing.Point(305, 16);
             this.generar_btn.Name = "generar_btn";
             this.generar_btn.Size = new System.Drawing.Size(184, 35);
@@ -129,16 +132,16 @@
             // 
             this.info_lbl.AutoSize = true;
             this.info_lbl.BackColor = System.Drawing.Color.Transparent;
-            this.info_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info_lbl.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.info_lbl.Location = new System.Drawing.Point(302, 54);
             this.info_lbl.Name = "info_lbl";
-            this.info_lbl.Size = new System.Drawing.Size(291, 17);
+            this.info_lbl.Size = new System.Drawing.Size(258, 18);
             this.info_lbl.TabIndex = 6;
             this.info_lbl.Text = "El calendario de juegos no ha sido generado";
             // 
             // Partidos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Campeonatos.Properties.Resources.fondodestas;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

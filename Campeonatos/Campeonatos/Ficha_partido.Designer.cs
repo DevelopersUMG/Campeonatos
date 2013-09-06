@@ -44,10 +44,11 @@
             // 
             this.local_lbl.AutoSize = true;
             this.local_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.local_lbl.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.local_lbl.Location = new System.Drawing.Point(131, 77);
             this.local_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.local_lbl.Name = "local_lbl";
-            this.local_lbl.Size = new System.Drawing.Size(60, 24);
+            this.local_lbl.Size = new System.Drawing.Size(46, 18);
             this.local_lbl.TabIndex = 0;
             this.local_lbl.Text = "label1";
             this.local_lbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -55,19 +56,21 @@
             // gol_loc_tbx
             // 
             this.gol_loc_tbx.Enabled = false;
+            this.gol_loc_tbx.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gol_loc_tbx.Location = new System.Drawing.Point(331, 77);
             this.gol_loc_tbx.Name = "gol_loc_tbx";
-            this.gol_loc_tbx.Size = new System.Drawing.Size(65, 28);
+            this.gol_loc_tbx.Size = new System.Drawing.Size(65, 23);
             this.gol_loc_tbx.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(419, 77);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 24);
+            this.label1.Size = new System.Drawing.Size(13, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "-";
             // 
@@ -75,10 +78,11 @@
             // 
             this.visita_lbl.AutoSize = true;
             this.visita_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.visita_lbl.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.visita_lbl.Location = new System.Drawing.Point(655, 77);
             this.visita_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.visita_lbl.Name = "visita_lbl";
-            this.visita_lbl.Size = new System.Drawing.Size(60, 24);
+            this.visita_lbl.Size = new System.Drawing.Size(46, 18);
             this.visita_lbl.TabIndex = 4;
             this.visita_lbl.Text = "label2";
             this.visita_lbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -86,9 +90,10 @@
             // gol_vis_tbx
             // 
             this.gol_vis_tbx.Enabled = false;
+            this.gol_vis_tbx.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gol_vis_tbx.Location = new System.Drawing.Point(461, 77);
             this.gol_vis_tbx.Name = "gol_vis_tbx";
-            this.gol_vis_tbx.Size = new System.Drawing.Size(63, 28);
+            this.gol_vis_tbx.Size = new System.Drawing.Size(63, 23);
             this.gol_vis_tbx.TabIndex = 3;
             // 
             // local_dgw
@@ -104,7 +109,6 @@
             this.local_dgw.Size = new System.Drawing.Size(384, 633);
             this.local_dgw.TabIndex = 5;
             this.local_dgw.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.local_dgw_CellBeginEdit);
-            //this.local_dgw.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.local_dgw_CellContentClick);
             this.local_dgw.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.local_dgw_CellEndEdit);
             // 
             // visita_dgw
@@ -120,11 +124,11 @@
             this.visita_dgw.Size = new System.Drawing.Size(384, 633);
             this.visita_dgw.TabIndex = 6;
             this.visita_dgw.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.visita_dgw_CellBeginEdit);
-            //this.visita_dgw.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.visita_dgw_CellContentClick);
             this.visita_dgw.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.visita_dgw_CellEndEdit);
             // 
             // guardar_btn
             // 
+            this.guardar_btn.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guardar_btn.Location = new System.Drawing.Point(354, 765);
             this.guardar_btn.Name = "guardar_btn";
             this.guardar_btn.Size = new System.Drawing.Size(144, 37);
@@ -135,11 +139,11 @@
             // 
             // Ficha_partido
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Campeonatos.Properties.Resources.skateboard_you_can_free_abstract_soccer_frame_ppt;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(858, 814);
+            this.ClientSize = new System.Drawing.Size(858, 782);
             this.Controls.Add(this.guardar_btn);
             this.Controls.Add(this.visita_dgw);
             this.Controls.Add(this.local_dgw);

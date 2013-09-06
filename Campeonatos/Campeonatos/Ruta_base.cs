@@ -72,5 +72,12 @@ namespace Campeonatos
                 MessageBox.Show("Para guardar la ruta no debe estar vacía");
             }
         }
+
+      
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

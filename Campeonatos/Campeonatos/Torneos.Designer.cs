@@ -46,15 +46,17 @@
             // lbltorneo
             // 
             this.lbltorneo.AutoSize = true;
+            this.lbltorneo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltorneo.Location = new System.Drawing.Point(10, 9);
             this.lbltorneo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltorneo.Name = "lbltorneo";
-            this.lbltorneo.Size = new System.Drawing.Size(97, 13);
+            this.lbltorneo.Size = new System.Drawing.Size(120, 18);
             this.lbltorneo.TabIndex = 0;
             this.lbltorneo.Text = "Nombre del torneo:";
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.btncancelar);
             this.panel1.Controls.Add(this.btnguardar);
             this.panel1.Controls.Add(this.txtfechafinal);
@@ -71,6 +73,7 @@
             // 
             // btncancelar
             // 
+            this.btncancelar.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.Location = new System.Drawing.Point(343, 50);
             this.btncancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btncancelar.Name = "btncancelar";
@@ -82,6 +85,7 @@
             // 
             // btnguardar
             // 
+            this.btnguardar.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.Location = new System.Drawing.Point(343, 16);
             this.btnguardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnguardar.Name = "btnguardar";
@@ -93,7 +97,7 @@
             // 
             // txtfechafinal
             // 
-            this.txtfechafinal.Location = new System.Drawing.Point(119, 59);
+            this.txtfechafinal.Location = new System.Drawing.Point(129, 59);
             this.txtfechafinal.Margin = new System.Windows.Forms.Padding(2);
             this.txtfechafinal.Name = "txtfechafinal";
             this.txtfechafinal.Size = new System.Drawing.Size(206, 20);
@@ -102,17 +106,18 @@
             // lblfechafinal
             // 
             this.lblfechafinal.AutoSize = true;
+            this.lblfechafinal.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfechafinal.Location = new System.Drawing.Point(10, 59);
             this.lblfechafinal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblfechafinal.Name = "lblfechafinal";
-            this.lblfechafinal.Size = new System.Drawing.Size(62, 13);
+            this.lblfechafinal.Size = new System.Drawing.Size(74, 18);
             this.lblfechafinal.TabIndex = 4;
             this.lblfechafinal.Text = "Fecha final:";
             // 
             // txtfechainicio
             // 
             this.txtfechainicio.Checked = false;
-            this.txtfechainicio.Location = new System.Drawing.Point(119, 33);
+            this.txtfechainicio.Location = new System.Drawing.Point(129, 34);
             this.txtfechainicio.Margin = new System.Windows.Forms.Padding(2);
             this.txtfechainicio.Name = "txtfechainicio";
             this.txtfechainicio.Size = new System.Drawing.Size(206, 20);
@@ -121,16 +126,17 @@
             // lblfechainicio
             // 
             this.lblfechainicio.AutoSize = true;
+            this.lblfechainicio.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfechainicio.Location = new System.Drawing.Point(10, 33);
             this.lblfechainicio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblfechainicio.Name = "lblfechainicio";
-            this.lblfechainicio.Size = new System.Drawing.Size(82, 13);
+            this.lblfechainicio.Size = new System.Drawing.Size(99, 18);
             this.lblfechainicio.TabIndex = 2;
             this.lblfechainicio.Text = "Fecha de inicio:";
             // 
             // txtnombretorneo
             // 
-            this.txtnombretorneo.Location = new System.Drawing.Point(119, 9);
+            this.txtnombretorneo.Location = new System.Drawing.Point(129, 9);
             this.txtnombretorneo.Margin = new System.Windows.Forms.Padding(2);
             this.txtnombretorneo.Name = "txtnombretorneo";
             this.txtnombretorneo.Size = new System.Drawing.Size(206, 20);
@@ -138,6 +144,7 @@
             // 
             // btnnuevocalendario
             // 
+            this.btnnuevocalendario.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnnuevocalendario.Location = new System.Drawing.Point(517, 343);
             this.btnnuevocalendario.Margin = new System.Windows.Forms.Padding(2);
             this.btnnuevocalendario.Name = "btnnuevocalendario";
@@ -152,6 +159,7 @@
             this.tblcalendario.AllowUserToAddRows = false;
             this.tblcalendario.AllowUserToDeleteRows = false;
             this.tblcalendario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tblcalendario.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tblcalendario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblcalendario.Location = new System.Drawing.Point(10, 34);
             this.tblcalendario.Margin = new System.Windows.Forms.Padding(2);

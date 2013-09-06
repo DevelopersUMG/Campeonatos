@@ -36,9 +36,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(340, 20);
+            this.label1.Size = new System.Drawing.Size(320, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Doble click para seleccionar un campeonato";
             // 
@@ -59,8 +61,9 @@
             // 
             // Seleccion_campeonato
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Campeonatos.Properties.Resources.fondo1;
             this.ClientSize = new System.Drawing.Size(352, 301);
             this.Controls.Add(this.campeonato_dgw);
             this.Controls.Add(this.label1);

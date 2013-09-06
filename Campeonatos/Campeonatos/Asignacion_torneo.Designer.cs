@@ -45,31 +45,36 @@
             // lbltorneo
             // 
             this.lbltorneo.AutoSize = true;
-            this.lbltorneo.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltorneo.BackColor = System.Drawing.Color.Transparent;
+            this.lbltorneo.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltorneo.Location = new System.Drawing.Point(9, 7);
             this.lbltorneo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltorneo.Name = "lbltorneo";
-            this.lbltorneo.Size = new System.Drawing.Size(123, 31);
+            this.lbltorneo.Size = new System.Drawing.Size(87, 24);
             this.lbltorneo.TabIndex = 0;
             this.lbltorneo.Text = "Torneo: ";
             // 
             // lblequipoizq
             // 
             this.lblequipoizq.AutoSize = true;
+            this.lblequipoizq.BackColor = System.Drawing.Color.Transparent;
+            this.lblequipoizq.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblequipoizq.Location = new System.Drawing.Point(12, 58);
             this.lblequipoizq.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblequipoizq.Name = "lblequipoizq";
-            this.lblequipoizq.Size = new System.Drawing.Size(96, 13);
+            this.lblequipoizq.Size = new System.Drawing.Size(109, 16);
             this.lblequipoizq.TabIndex = 2;
             this.lblequipoizq.Text = "Todos los equipos:";
             // 
             // lblequipoder
             // 
             this.lblequipoder.AutoSize = true;
+            this.lblequipoder.BackColor = System.Drawing.Color.Transparent;
+            this.lblequipoder.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblequipoder.Location = new System.Drawing.Point(320, 58);
             this.lblequipoder.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblequipoder.Name = "lblequipoder";
-            this.lblequipoder.Size = new System.Drawing.Size(107, 13);
+            this.lblequipoder.Size = new System.Drawing.Size(124, 16);
             this.lblequipoder.TabIndex = 4;
             this.lblequipoder.Text = "Equipos en el torneo:";
             // 
@@ -85,10 +90,11 @@
             // 
             // btnquitar
             // 
+            this.btnquitar.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnquitar.Location = new System.Drawing.Point(220, 124);
             this.btnquitar.Margin = new System.Windows.Forms.Padding(2);
             this.btnquitar.Name = "btnquitar";
-            this.btnquitar.Size = new System.Drawing.Size(56, 19);
+            this.btnquitar.Size = new System.Drawing.Size(63, 27);
             this.btnquitar.TabIndex = 6;
             this.btnquitar.Text = ">>";
             this.btnquitar.UseVisualStyleBackColor = true;
@@ -96,10 +102,11 @@
             // 
             // btnagregar
             // 
+            this.btnagregar.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnagregar.Location = new System.Drawing.Point(220, 148);
             this.btnagregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(56, 19);
+            this.btnagregar.Size = new System.Drawing.Size(63, 27);
             this.btnagregar.TabIndex = 7;
             this.btnagregar.Text = "<<";
             this.btnagregar.UseVisualStyleBackColor = true;
@@ -121,6 +128,7 @@
             this.tblequiposizq.AllowUserToAddRows = false;
             this.tblequiposizq.AllowUserToDeleteRows = false;
             this.tblequiposizq.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tblequiposizq.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tblequiposizq.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblequiposizq.Location = new System.Drawing.Point(14, 75);
             this.tblequiposizq.Margin = new System.Windows.Forms.Padding(2);
@@ -136,6 +144,7 @@
             this.tblequiposder.AllowUserToAddRows = false;
             this.tblequiposder.AllowUserToDeleteRows = false;
             this.tblequiposder.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tblequiposder.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tblequiposder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblequiposder.Location = new System.Drawing.Point(322, 75);
             this.tblequiposder.Margin = new System.Windows.Forms.Padding(2);
@@ -147,10 +156,11 @@
             // 
             // btnguardar
             // 
+            this.btnguardar.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.Location = new System.Drawing.Point(220, 328);
             this.btnguardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(56, 19);
+            this.btnguardar.Size = new System.Drawing.Size(63, 27);
             this.btnguardar.TabIndex = 11;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;

@@ -44,6 +44,7 @@
             this.rdb_nombre = new System.Windows.Forms.RadioButton();
             this.rdb_direccion = new System.Windows.Forms.RadioButton();
             this.rdb_telefono = new System.Windows.Forms.RadioButton();
+            this.lbl_total_jugadores = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grid1)).BeginInit();
             this.panel_insercion.SuspendLayout();
             this.grp_criterio.SuspendLayout();
@@ -188,6 +189,7 @@
             this.grp_criterio.Controls.Add(this.rdb_nombre);
             this.grp_criterio.Controls.Add(this.rdb_direccion);
             this.grp_criterio.Controls.Add(this.rdb_telefono);
+            this.grp_criterio.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grp_criterio.Location = new System.Drawing.Point(525, 31);
             this.grp_criterio.Name = "grp_criterio";
             this.grp_criterio.Size = new System.Drawing.Size(312, 48);
@@ -198,35 +200,53 @@
             // rdb_nombre
             // 
             this.rdb_nombre.AutoSize = true;
+            this.rdb_nombre.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdb_nombre.Location = new System.Drawing.Point(6, 20);
             this.rdb_nombre.Name = "rdb_nombre";
-            this.rdb_nombre.Size = new System.Drawing.Size(62, 17);
+            this.rdb_nombre.Size = new System.Drawing.Size(74, 22);
             this.rdb_nombre.TabIndex = 11;
             this.rdb_nombre.TabStop = true;
             this.rdb_nombre.Text = "Nombre";
             this.rdb_nombre.UseVisualStyleBackColor = true;
+            this.rdb_nombre.CheckedChanged += new System.EventHandler(this.rdb_nombre_CheckedChanged);
             // 
             // rdb_direccion
             // 
             this.rdb_direccion.AutoSize = true;
+            this.rdb_direccion.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdb_direccion.Location = new System.Drawing.Point(164, 20);
             this.rdb_direccion.Name = "rdb_direccion";
-            this.rdb_direccion.Size = new System.Drawing.Size(70, 17);
+            this.rdb_direccion.Size = new System.Drawing.Size(84, 22);
             this.rdb_direccion.TabIndex = 13;
             this.rdb_direccion.TabStop = true;
             this.rdb_direccion.Text = "Dirección";
             this.rdb_direccion.UseVisualStyleBackColor = true;
+            this.rdb_direccion.CheckedChanged += new System.EventHandler(this.rdb_direccion_CheckedChanged);
             // 
             // rdb_telefono
             // 
             this.rdb_telefono.AutoSize = true;
+            this.rdb_telefono.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdb_telefono.Location = new System.Drawing.Point(82, 20);
             this.rdb_telefono.Name = "rdb_telefono";
-            this.rdb_telefono.Size = new System.Drawing.Size(67, 17);
+            this.rdb_telefono.Size = new System.Drawing.Size(79, 22);
             this.rdb_telefono.TabIndex = 12;
             this.rdb_telefono.TabStop = true;
             this.rdb_telefono.Text = "Teléfono";
             this.rdb_telefono.UseVisualStyleBackColor = true;
+            this.rdb_telefono.CheckedChanged += new System.EventHandler(this.rdb_telefono_CheckedChanged);
+            // 
+            // lbl_total_jugadores
+            // 
+            this.lbl_total_jugadores.AutoSize = true;
+            this.lbl_total_jugadores.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_total_jugadores.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_total_jugadores.Location = new System.Drawing.Point(19, 64);
+            this.lbl_total_jugadores.Name = "lbl_total_jugadores";
+            this.lbl_total_jugadores.Size = new System.Drawing.Size(117, 18);
+            this.lbl_total_jugadores.TabIndex = 18;
+            this.lbl_total_jugadores.Text = "Total de jugadores:";
+            this.lbl_total_jugadores.Visible = false;
             // 
             // frm_insertar_jugador
             // 
@@ -234,6 +254,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Campeonatos.Properties.Resources.fondodestas;
             this.ClientSize = new System.Drawing.Size(867, 531);
+            this.Controls.Add(this.lbl_total_jugadores);
             this.Controls.Add(this.grp_criterio);
             this.Controls.Add(this.btn_insertar);
             this.Controls.Add(this.panel_insercion);
@@ -272,5 +293,6 @@
         private System.Windows.Forms.RadioButton rdb_nombre;
         private System.Windows.Forms.RadioButton rdb_direccion;
         private System.Windows.Forms.RadioButton rdb_telefono;
+        private System.Windows.Forms.Label lbl_total_jugadores;
     }
 }

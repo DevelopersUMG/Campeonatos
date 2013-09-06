@@ -68,8 +68,9 @@
             // 
             this.grid_bd_jugadores.AllowUserToAddRows = false;
             this.grid_bd_jugadores.AllowUserToDeleteRows = false;
+            this.grid_bd_jugadores.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.grid_bd_jugadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid_bd_jugadores.Location = new System.Drawing.Point(563, 207);
+            this.grid_bd_jugadores.Location = new System.Drawing.Point(563, 226);
             this.grid_bd_jugadores.Name = "grid_bd_jugadores";
             this.grid_bd_jugadores.ReadOnly = true;
             this.grid_bd_jugadores.Size = new System.Drawing.Size(317, 309);
@@ -81,6 +82,7 @@
             this.grid_lista_jugadores.AllowUserToAddRows = false;
             this.grid_lista_jugadores.AllowUserToDeleteRows = false;
             this.grid_lista_jugadores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.grid_lista_jugadores.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.grid_lista_jugadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_lista_jugadores.Location = new System.Drawing.Point(12, 226);
             this.grid_lista_jugadores.Name = "grid_lista_jugadores";
@@ -92,6 +94,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(556, 1);
             this.label1.Name = "label1";
@@ -102,8 +105,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(558, 169);
+            this.label2.Location = new System.Drawing.Point(558, 185);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(198, 29);
             this.label2.TabIndex = 4;
@@ -112,9 +116,9 @@
             // agregar_btn
             // 
             this.agregar_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agregar_btn.Location = new System.Drawing.Point(389, 320);
+            this.agregar_btn.Location = new System.Drawing.Point(368, 304);
             this.agregar_btn.Name = "agregar_btn";
-            this.agregar_btn.Size = new System.Drawing.Size(75, 23);
+            this.agregar_btn.Size = new System.Drawing.Size(111, 23);
             this.agregar_btn.TabIndex = 5;
             this.agregar_btn.Text = "<<<";
             this.agregar_btn.UseVisualStyleBackColor = true;
@@ -134,6 +138,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(13, 25);
             this.label3.Name = "label3";
@@ -144,6 +149,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(12, 185);
             this.label4.Name = "label4";
@@ -154,6 +160,7 @@
             // label_encargado
             // 
             this.label_encargado.AutoSize = true;
+            this.label_encargado.BackColor = System.Drawing.Color.Transparent;
             this.label_encargado.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_encargado.Location = new System.Drawing.Point(13, 63);
             this.label_encargado.Name = "label_encargado";
@@ -164,6 +171,7 @@
             // Label_telefono
             // 
             this.Label_telefono.AutoSize = true;
+            this.Label_telefono.BackColor = System.Drawing.Color.Transparent;
             this.Label_telefono.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_telefono.Location = new System.Drawing.Point(13, 101);
             this.Label_telefono.Name = "Label_telefono";
@@ -173,9 +181,10 @@
             // 
             // nuevo_jugador_btn
             // 
-            this.nuevo_jugador_btn.Location = new System.Drawing.Point(378, 409);
+            this.nuevo_jugador_btn.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nuevo_jugador_btn.Location = new System.Drawing.Point(368, 376);
             this.nuevo_jugador_btn.Name = "nuevo_jugador_btn";
-            this.nuevo_jugador_btn.Size = new System.Drawing.Size(90, 37);
+            this.nuevo_jugador_btn.Size = new System.Drawing.Size(111, 58);
             this.nuevo_jugador_btn.TabIndex = 14;
             this.nuevo_jugador_btn.Text = "Nuevo Jugador";
             this.nuevo_jugador_btn.UseVisualStyleBackColor = true;
@@ -184,9 +193,9 @@
             // quitar_btn
             // 
             this.quitar_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quitar_btn.Location = new System.Drawing.Point(389, 349);
+            this.quitar_btn.Location = new System.Drawing.Point(368, 347);
             this.quitar_btn.Name = "quitar_btn";
-            this.quitar_btn.Size = new System.Drawing.Size(75, 23);
+            this.quitar_btn.Size = new System.Drawing.Size(111, 23);
             this.quitar_btn.TabIndex = 15;
             this.quitar_btn.Text = ">>>";
             this.quitar_btn.UseVisualStyleBackColor = true;
@@ -195,9 +204,10 @@
             // 
             // buscar_jugador_btn
             // 
-            this.buscar_jugador_btn.Location = new System.Drawing.Point(393, 476);
+            this.buscar_jugador_btn.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buscar_jugador_btn.Location = new System.Drawing.Point(368, 449);
             this.buscar_jugador_btn.Name = "buscar_jugador_btn";
-            this.buscar_jugador_btn.Size = new System.Drawing.Size(75, 23);
+            this.buscar_jugador_btn.Size = new System.Drawing.Size(111, 33);
             this.buscar_jugador_btn.TabIndex = 16;
             this.buscar_jugador_btn.Text = "Buscar";
             this.buscar_jugador_btn.UseVisualStyleBackColor = true;
@@ -206,9 +216,9 @@
             // 
             // buscar_buscar
             // 
-            this.buscar_buscar.Location = new System.Drawing.Point(393, 505);
+            this.buscar_buscar.Location = new System.Drawing.Point(368, 488);
             this.buscar_buscar.Name = "buscar_buscar";
-            this.buscar_buscar.Size = new System.Drawing.Size(100, 20);
+            this.buscar_buscar.Size = new System.Drawing.Size(111, 20);
             this.buscar_buscar.TabIndex = 17;
             this.buscar_buscar.Visible = false;
             // 
