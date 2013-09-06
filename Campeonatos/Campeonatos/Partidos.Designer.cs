@@ -85,7 +85,7 @@
             this.total_eq_lbl.AutoSize = true;
             this.total_eq_lbl.BackColor = System.Drawing.Color.Transparent;
             this.total_eq_lbl.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.total_eq_lbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.total_eq_lbl.ForeColor = System.Drawing.Color.Transparent;
             this.total_eq_lbl.Location = new System.Drawing.Point(35, 674);
             this.total_eq_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.total_eq_lbl.Name = "total_eq_lbl";

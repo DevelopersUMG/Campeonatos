@@ -186,6 +186,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(533, 217);
             this.label4.Name = "label4";
@@ -215,7 +216,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "crear_equipo";
-            this.Text = "crear_equipo";
+            this.Text = "Equipos";
             this.Load += new System.EventHandler(this.crear_equipo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bd_equipos_grid)).EndInit();
