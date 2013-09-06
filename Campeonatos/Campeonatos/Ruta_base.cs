@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace Campeonatos
 {
@@ -17,6 +18,7 @@ namespace Campeonatos
         public Ruta_base()
         {
             InitializeComponent();
+            ruta_lbl.Text = Properties.Settings.Default.ruta;
         }
 
         private void btn_examinar_Click(object sender, EventArgs e)
@@ -43,15 +45,19 @@ namespace Campeonatos
                 {
                     if (txt_path.Text != Properties.Settings.Default.ruta && Properties.Settings.Default.ruta != "")
                     {
-                        if (MessageBox.Show("¿Está seguro de cambiar la ubicación de la base de datos? La aplicación se riniciará para efectuar los cambios", "Guardar ruta de base de datos", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                        if (MessageBox.Show("¿Está seguro de cambiar la ubicación de la base de datos a: "+txt_path.Text+"? La aplicación se reiniciará para efectuar los cambios", "Guardar ruta de base de datos", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                         {
                             Properties.Settings.Default.ruta = txt_path.Text;
+                            Properties.Settings.Default.Save();
+                            Thread.Sleep(2000);
                             Application.Restart();
                         }
                     }
                     else if (Properties.Settings.Default.ruta == "")
                     {
                         Properties.Settings.Default.ruta = txt_path.Text;
+                        Properties.Settings.Default.Save();
+                        Thread.Sleep(2000);
                         Application.Restart();
                     }
                     else
@@ -71,13 +77,6 @@ namespace Campeonatos
             {
                 MessageBox.Show("Para guardar la ruta no debe estar vacía");
             }
-        }
-
-      
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
