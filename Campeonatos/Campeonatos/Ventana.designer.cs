@@ -70,7 +70,7 @@
             // abrirToolStripMenuItem
             // 
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
             this.abrirToolStripMenuItem.Text = "Salir";
             this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
             // 
@@ -127,6 +127,7 @@
             this.btn_estadisticas.TabIndex = 11;
             this.btn_estadisticas.Text = "Estadísticas";
             this.btn_estadisticas.UseVisualStyleBackColor = true;
+            this.btn_estadisticas.Click += new System.EventHandler(this.btn_estadisticas_Click);
             // 
             // btn_partidos
             // 
@@ -196,7 +197,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ventana";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ventana";
+            this.Text = "Tabla de posiciones";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Ventana_Load);
             this.SizeChanged += new System.EventHandler(this.Ventana_SizeChanged);

@@ -82,6 +82,12 @@
     <Compile Include="Equipos.Designer.cs">
       <DependentUpon>Equipos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Estadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </Compile>
     <Compile Include="ficha_equipo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,18 @@
     <Compile Include="Frm_menu.designer.cs">
       <DependentUpon>Frm_menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Insertar_varios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insertar_varios.Designer.cs">
+      <DependentUpon>Insertar_varios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jugadorescs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jugadorescs.Designer.cs">
+      <DependentUpon>jugadorescs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Partidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +150,13 @@
     <Compile Include="Ruta_base.Designer.cs">
       <DependentUpon>Ruta_base.cs</DependentUpon>
     </Compile>
+    <Compile Include="Seleccion_campeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccion_campeonato.Designer.cs">
+      <DependentUpon>Seleccion_campeonato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seleccion_jugadores.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Torneos.cs">
       <SubType>Form</SubType>
@@ -160,6 +185,9 @@
     <EmbeddedResource Include="Equipos.resx">
       <DependentUpon>Equipos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ficha_equipo.resx">
       <DependentUpon>ficha_equipo.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +206,12 @@
     <EmbeddedResource Include="Frm_menu.resx">
       <DependentUpon>Frm_menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Insertar_varios.resx">
+      <DependentUpon>Insertar_varios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jugadorescs.resx">
+      <DependentUpon>jugadorescs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Partidos.resx">
       <DependentUpon>Partidos.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +227,9 @@
     </Compile>
     <EmbeddedResource Include="Ruta_base.resx">
       <DependentUpon>Ruta_base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccion_campeonato.resx">
+      <DependentUpon>Seleccion_campeonato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Torneos.resx">
       <DependentUpon>Torneos.cs</DependentUpon>

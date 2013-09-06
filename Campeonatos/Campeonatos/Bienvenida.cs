@@ -16,7 +16,7 @@ namespace Campeonatos
 {
     public partial class form_bienvenida : Form
     {
-        DBConnect db = new DBConnect("campeonato.sqlite");
+        DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
 
         public form_bienvenida()
         {

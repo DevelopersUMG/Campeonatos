@@ -15,7 +15,7 @@ namespace Campeonatos
     {
 
         bool first = true;
-        DBConnect db = new DBConnect("campeonato.sqlite");
+        DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
 
         public Configuración()
         {
@@ -67,7 +67,7 @@ namespace Campeonatos
             if (txt_path.Text != "")
             {
                 //Properties.Settings.Default.ruta = txt_path.Text;
-                Properties.Settings.Default.ruta = "campeonato.sqlite";
+                Properties.Settings.Default.ruta = Properties.Settings.Default.ruta;
                 tab_configuraciones.SelectedIndex = 3;
             }
             else

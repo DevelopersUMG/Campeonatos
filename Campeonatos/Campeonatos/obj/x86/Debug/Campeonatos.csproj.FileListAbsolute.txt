@@ -27,3 +27,7 @@ C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\ob
 C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.frm_insertar_jugador.resources
 C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Frm_menu_jugadores.resources
 C:\Users\Guicho\documents\visual studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ficha_partido.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Insertar_varios.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.jugadorescs.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Seleccion_campeonato.resources
+C:\Users\Guicho\Documents\Visual Studio 2010\Projects\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Estadisticas.resources

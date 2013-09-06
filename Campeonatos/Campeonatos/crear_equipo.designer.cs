@@ -49,10 +49,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Campeonatos.Properties.Resources.camisola;
-            this.pictureBox1.Location = new System.Drawing.Point(632, 27);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(474, 22);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(369, 209);
+            this.pictureBox1.Size = new System.Drawing.Size(277, 170);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -61,10 +60,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 46);
+            this.label1.Size = new System.Drawing.Size(235, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Crear Equipos";
             // 
@@ -73,11 +71,10 @@
             this.bd_equipos_grid.AllowUserToAddRows = false;
             this.bd_equipos_grid.AllowUserToDeleteRows = false;
             this.bd_equipos_grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bd_equipos_grid.Location = new System.Drawing.Point(25, 353);
-            this.bd_equipos_grid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bd_equipos_grid.Location = new System.Drawing.Point(19, 287);
             this.bd_equipos_grid.Name = "bd_equipos_grid";
             this.bd_equipos_grid.ReadOnly = true;
-            this.bd_equipos_grid.Size = new System.Drawing.Size(557, 303);
+            this.bd_equipos_grid.Size = new System.Drawing.Size(418, 246);
             this.bd_equipos_grid.TabIndex = 2;
             this.bd_equipos_grid.Click += new System.EventHandler(this.grid_bd_equipos_Click);
             // 
@@ -85,10 +82,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 292);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(14, 237);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(289, 36);
+            this.label2.Size = new System.Drawing.Size(238, 29);
             this.label2.TabIndex = 3;
             this.label2.Text = "Listado de Equipos";
             // 
@@ -96,18 +92,16 @@
             // 
             this.equipo_seleccionado_text.BackColor = System.Drawing.Color.GreenYellow;
             this.equipo_seleccionado_text.Enabled = false;
-            this.equipo_seleccionado_text.Location = new System.Drawing.Point(716, 309);
-            this.equipo_seleccionado_text.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.equipo_seleccionado_text.Location = new System.Drawing.Point(537, 251);
             this.equipo_seleccionado_text.Name = "equipo_seleccionado_text";
-            this.equipo_seleccionado_text.Size = new System.Drawing.Size(132, 22);
+            this.equipo_seleccionado_text.Size = new System.Drawing.Size(100, 20);
             this.equipo_seleccionado_text.TabIndex = 4;
             // 
             // ver_jugadores_btn
             // 
-            this.ver_jugadores_btn.Location = new System.Drawing.Point(716, 341);
-            this.ver_jugadores_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ver_jugadores_btn.Location = new System.Drawing.Point(537, 277);
             this.ver_jugadores_btn.Name = "ver_jugadores_btn";
-            this.ver_jugadores_btn.Size = new System.Drawing.Size(204, 26);
+            this.ver_jugadores_btn.Size = new System.Drawing.Size(153, 21);
             this.ver_jugadores_btn.TabIndex = 5;
             this.ver_jugadores_btn.Text = "Ver Jugadores";
             this.ver_jugadores_btn.UseVisualStyleBackColor = true;
@@ -116,38 +110,34 @@
             // nombre_equipo_text
             // 
             this.nombre_equipo_text.BackColor = System.Drawing.Color.GreenYellow;
-            this.nombre_equipo_text.Location = new System.Drawing.Point(221, 108);
-            this.nombre_equipo_text.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nombre_equipo_text.Location = new System.Drawing.Point(166, 88);
             this.nombre_equipo_text.Name = "nombre_equipo_text";
-            this.nombre_equipo_text.Size = new System.Drawing.Size(132, 22);
+            this.nombre_equipo_text.Size = new System.Drawing.Size(100, 20);
             this.nombre_equipo_text.TabIndex = 6;
             // 
             // encargado_text
             // 
             this.encargado_text.BackColor = System.Drawing.Color.GreenYellow;
-            this.encargado_text.Location = new System.Drawing.Point(221, 154);
-            this.encargado_text.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.encargado_text.Location = new System.Drawing.Point(166, 125);
             this.encargado_text.Name = "encargado_text";
-            this.encargado_text.Size = new System.Drawing.Size(132, 22);
+            this.encargado_text.Size = new System.Drawing.Size(100, 20);
             this.encargado_text.TabIndex = 7;
             // 
             // telefono_text
             // 
             this.telefono_text.BackColor = System.Drawing.Color.GreenYellow;
-            this.telefono_text.Location = new System.Drawing.Point(221, 212);
-            this.telefono_text.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.telefono_text.Location = new System.Drawing.Point(166, 172);
             this.telefono_text.Name = "telefono_text";
-            this.telefono_text.Size = new System.Drawing.Size(132, 22);
+            this.telefono_text.Size = new System.Drawing.Size(100, 20);
             this.telefono_text.TabIndex = 8;
             // 
             // Label_telefono
             // 
             this.Label_telefono.AutoSize = true;
             this.Label_telefono.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_telefono.Location = new System.Drawing.Point(37, 197);
-            this.Label_telefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_telefono.Location = new System.Drawing.Point(28, 160);
             this.Label_telefono.Name = "Label_telefono";
-            this.Label_telefono.Size = new System.Drawing.Size(100, 26);
+            this.Label_telefono.Size = new System.Drawing.Size(83, 22);
             this.Label_telefono.TabIndex = 16;
             this.Label_telefono.Text = "Telefono:";
             // 
@@ -155,10 +145,9 @@
             // 
             this.label_encargado.AutoSize = true;
             this.label_encargado.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_encargado.Location = new System.Drawing.Point(37, 151);
-            this.label_encargado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label_encargado.Location = new System.Drawing.Point(28, 123);
             this.label_encargado.Name = "label_encargado";
-            this.label_encargado.Size = new System.Drawing.Size(116, 26);
+            this.label_encargado.Size = new System.Drawing.Size(96, 22);
             this.label_encargado.TabIndex = 15;
             this.label_encargado.Text = "Encargado:";
             // 
@@ -166,19 +155,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 106);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(28, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 26);
+            this.label3.Size = new System.Drawing.Size(132, 22);
             this.label3.TabIndex = 14;
             this.label3.Text = "Nombre Equipo:";
             // 
             // crear_equipo_btn
             // 
-            this.crear_equipo_btn.Location = new System.Drawing.Point(380, 110);
-            this.crear_equipo_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.crear_equipo_btn.Location = new System.Drawing.Point(285, 89);
             this.crear_equipo_btn.Name = "crear_equipo_btn";
-            this.crear_equipo_btn.Size = new System.Drawing.Size(147, 28);
+            this.crear_equipo_btn.Size = new System.Drawing.Size(110, 23);
             this.crear_equipo_btn.TabIndex = 17;
             this.crear_equipo_btn.Text = "Crear Equipo";
             this.crear_equipo_btn.UseVisualStyleBackColor = true;
@@ -188,20 +175,19 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(711, 267);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(533, 217);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(205, 26);
+            this.label4.Size = new System.Drawing.Size(166, 22);
             this.label4.TabIndex = 18;
             this.label4.Text = "Equipo Seleccionado";
             // 
             // crear_equipo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Campeonatos.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1039, 693);
+            this.ClientSize = new System.Drawing.Size(779, 563);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.crear_equipo_btn);
             this.Controls.Add(this.Label_telefono);
@@ -216,9 +202,8 @@
             this.Controls.Add(this.bd_equipos_grid);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "crear_equipo";
-            this.Text = "Equipos";
+            this.Text = "crear_equipo";
             this.Load += new System.EventHandler(this.crear_equipo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bd_equipos_grid)).EndInit();

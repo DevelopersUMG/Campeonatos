@@ -38,7 +38,7 @@ namespace Campeonatos
             {
                 idequipos[i] = Convert.ToInt32(equipos_data.Rows[i].Cells[0].Value);
             }
-            total_eq_lbl.Text += " " + equipos_data.RowCount;
+            total_eq_lbl.Text = "Total de equipos: " + equipos_data.RowCount;
             query = "select generado from campeonato where idcampeonato = " + idtorneo;
             System.Collections.ArrayList a = db.consultar(query);
             foreach (Dictionary<string, string> d in a)
@@ -55,12 +55,8 @@ namespace Campeonatos
                 }
             }
 
-            System.Collections.ArrayList array = db.consultar("select nombre from campeonato");
-            Dictionary<string, string> dict = new Dictionary<string, string>();
-            foreach (Dictionary<string, string> d in array)
-            {
-                torneo_cmb.Items.Add(d["nombre"]);
-            }
+
+            
             
         }
 
@@ -304,17 +300,7 @@ namespace Campeonatos
            
         }
 
-        private void torneo_cmb_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string text = torneo_cmb.SelectedItem.ToString();
-            System.Collections.ArrayList a = db.consultar("select idcampeonato,nombre from campeonato where nombre = '"+text +"'");
-            foreach (Dictionary<string, string> d in a)
-            {
-                idtorneo =Convert.ToInt32(d["idcampeonato"]);
-                torneo_lbl.Text = "Torneo: "+ d["nombre"];
-            }
-            Partidos_Load(sender, e);
-        }
+        
 
         private void calendario_grid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -324,10 +310,13 @@ namespace Campeonatos
                 if (calendario_grid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString() == "Ingresar resultado")
                 {
                     new Ficha_partido(i).ShowDialog();
+                    Partidos_Load(sender, e);
                 }
                 else
                 {
-                    MessageBox.Show("Cambiando");
+                    Ficha_partido f = new Ficha_partido(i);
+                    f.set_var();
+                    f.ShowDialog();
                 }
             }
         }

@@ -64,7 +64,7 @@ namespace Campeonatos
                     MessageBox.Show("La base de datos tiene que tener la extensión .sqlite para poder ser reconocida");
                 }
                 //Properties.Settings.Default.ruta = txt_path.Text;
-                //Properties.Settings.Default.ruta = "campeonato.sqlite";
+                //Properties.Settings.Default.ruta = Properties.Settings.Default.ruta;
                 
             }
             else

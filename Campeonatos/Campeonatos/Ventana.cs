@@ -28,7 +28,7 @@ namespace Campeonatos
                 new Ruta_base().ShowDialog();
             }
             
-            //new form_bienvenida().ShowDialog();
+            new form_bienvenida().ShowDialog();
             
             Contenedor.IsSplitterFixed = true;
             Contenedor.FixedPanel = FixedPanel.Panel1;            
@@ -116,11 +116,12 @@ namespace Campeonatos
 
         private void btn_jugador_Click(object sender, EventArgs e)
         {
-            abrir_modulo(new Frm_menu_jugadores(),"Jugadores");
+            abrir_modulo(new frm_insertar_jugador(),"Jugadores");
         }
 
         private void btn_partidos_Click(object sender, EventArgs e)
         {
+            /*
             int i=1;
             string s="";
             DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
@@ -129,7 +130,13 @@ namespace Campeonatos
             {
                 s = d["nombre"];
             }
-            abrir_modulo(new Partidos(i, s), "Partidos");
+             */
+            abrir_modulo(new Seleccion_campeonato(), "Partidos");
+        }
+
+        private void btn_estadisticas_Click(object sender, EventArgs e)
+        {
+            abrir_modulo(new Estadisticas(), "Estadísticas");
         }
     }
 }

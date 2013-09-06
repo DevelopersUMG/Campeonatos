@@ -36,7 +36,7 @@ namespace Campeonatos
             string query2 = "select idequipo as 'ID', nombre as 'Nombre', encargado as 'Entrenador', telefono as 'Telefono' from equipo ";
             bd_equipos_grid.DataSource = db.consultarGrid(query2).DataSource;
             bd_equipos_grid.Columns[0].Visible = false;
-            bd_equipos_grid.CurrentCell = bd_equipos_grid[1, 0];
+            
         }
 
         private void button_crear_equipo_Click(object sender, EventArgs e)
@@ -49,9 +49,8 @@ namespace Campeonatos
 
             db.insertar(tabla, dict);
 
-            string query2 = "select idequipo as 'ID', nombre as 'Nombre', encargado as 'Entrenador', telefono as 'Telefono' from equipo ";
-            bd_equipos_grid.DataSource = db.consultarGrid(query2).DataSource;
-            bd_equipos_grid.Columns[0].Visible = false;
+            string query = "select * from equipo";
+            bd_equipos_grid.DataSource = db.consultarGrid(query).DataSource;
 
             nombre_equipo_text.Text = "";
             encargado_text.Text = "";
@@ -75,13 +74,14 @@ namespace Campeonatos
         }
 
         private void button_ver_jugadores_Click(object sender, EventArgs e)
-        {	
-			if ( equipo_seleccionado_text.text = "";
-			{
+        {
+            if(equipo_seleccionado_text.Text != "")
+            {
             ficha_equipo f = new ficha_equipo(id_equipo, nombre, encargado, telefono);
             f.ShowDialog();
-			}
         }
+        }
+
 
         
     }

@@ -46,9 +46,10 @@
             // lbltorneo
             // 
             this.lbltorneo.AutoSize = true;
-            this.lbltorneo.Location = new System.Drawing.Point(13, 11);
+            this.lbltorneo.Location = new System.Drawing.Point(10, 9);
+            this.lbltorneo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltorneo.Name = "lbltorneo";
-            this.lbltorneo.Size = new System.Drawing.Size(130, 17);
+            this.lbltorneo.Size = new System.Drawing.Size(97, 13);
             this.lbltorneo.TabIndex = 0;
             this.lbltorneo.Text = "Nombre del torneo:";
             // 
@@ -62,18 +63,18 @@
             this.panel1.Controls.Add(this.lblfechainicio);
             this.panel1.Controls.Add(this.txtnombretorneo);
             this.panel1.Controls.Add(this.lbltorneo);
-            this.panel1.Location = new System.Drawing.Point(13, 430);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(10, 349);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(564, 114);
+            this.panel1.Size = new System.Drawing.Size(423, 93);
             this.panel1.TabIndex = 1;
             // 
             // btncancelar
             // 
-            this.btncancelar.Location = new System.Drawing.Point(457, 62);
-            this.btncancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btncancelar.Location = new System.Drawing.Point(343, 50);
+            this.btncancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(85, 37);
+            this.btncancelar.Size = new System.Drawing.Size(64, 30);
             this.btncancelar.TabIndex = 7;
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
@@ -81,10 +82,10 @@
             // 
             // btnguardar
             // 
-            this.btnguardar.Location = new System.Drawing.Point(457, 20);
-            this.btnguardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnguardar.Location = new System.Drawing.Point(343, 16);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(85, 37);
+            this.btnguardar.Size = new System.Drawing.Size(64, 30);
             this.btnguardar.TabIndex = 6;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
@@ -92,53 +93,55 @@
             // 
             // txtfechafinal
             // 
-            this.txtfechafinal.Location = new System.Drawing.Point(159, 73);
-            this.txtfechafinal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtfechafinal.Location = new System.Drawing.Point(119, 59);
+            this.txtfechafinal.Margin = new System.Windows.Forms.Padding(2);
             this.txtfechafinal.Name = "txtfechafinal";
-            this.txtfechafinal.Size = new System.Drawing.Size(273, 22);
+            this.txtfechafinal.Size = new System.Drawing.Size(206, 20);
             this.txtfechafinal.TabIndex = 5;
             // 
             // lblfechafinal
             // 
             this.lblfechafinal.AutoSize = true;
-            this.lblfechafinal.Location = new System.Drawing.Point(13, 73);
+            this.lblfechafinal.Location = new System.Drawing.Point(10, 59);
+            this.lblfechafinal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblfechafinal.Name = "lblfechafinal";
-            this.lblfechafinal.Size = new System.Drawing.Size(81, 17);
+            this.lblfechafinal.Size = new System.Drawing.Size(62, 13);
             this.lblfechafinal.TabIndex = 4;
             this.lblfechafinal.Text = "Fecha final:";
             // 
             // txtfechainicio
             // 
             this.txtfechainicio.Checked = false;
-            this.txtfechainicio.Location = new System.Drawing.Point(159, 41);
-            this.txtfechainicio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtfechainicio.Location = new System.Drawing.Point(119, 33);
+            this.txtfechainicio.Margin = new System.Windows.Forms.Padding(2);
             this.txtfechainicio.Name = "txtfechainicio";
-            this.txtfechainicio.Size = new System.Drawing.Size(273, 22);
+            this.txtfechainicio.Size = new System.Drawing.Size(206, 20);
             this.txtfechainicio.TabIndex = 3;
             // 
             // lblfechainicio
             // 
             this.lblfechainicio.AutoSize = true;
-            this.lblfechainicio.Location = new System.Drawing.Point(13, 41);
+            this.lblfechainicio.Location = new System.Drawing.Point(10, 33);
+            this.lblfechainicio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblfechainicio.Name = "lblfechainicio";
-            this.lblfechainicio.Size = new System.Drawing.Size(107, 17);
+            this.lblfechainicio.Size = new System.Drawing.Size(82, 13);
             this.lblfechainicio.TabIndex = 2;
             this.lblfechainicio.Text = "Fecha de inicio:";
             // 
             // txtnombretorneo
             // 
-            this.txtnombretorneo.Location = new System.Drawing.Point(159, 11);
-            this.txtnombretorneo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtnombretorneo.Location = new System.Drawing.Point(119, 9);
+            this.txtnombretorneo.Margin = new System.Windows.Forms.Padding(2);
             this.txtnombretorneo.Name = "txtnombretorneo";
-            this.txtnombretorneo.Size = new System.Drawing.Size(273, 22);
+            this.txtnombretorneo.Size = new System.Drawing.Size(206, 20);
             this.txtnombretorneo.TabIndex = 1;
             // 
             // btnnuevocalendario
             // 
-            this.btnnuevocalendario.Location = new System.Drawing.Point(719, 416);
-            this.btnnuevocalendario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnnuevocalendario.Location = new System.Drawing.Point(517, 343);
+            this.btnnuevocalendario.Margin = new System.Windows.Forms.Padding(2);
             this.btnnuevocalendario.Name = "btnnuevocalendario";
-            this.btnnuevocalendario.Size = new System.Drawing.Size(96, 34);
+            this.btnnuevocalendario.Size = new System.Drawing.Size(72, 28);
             this.btnnuevocalendario.TabIndex = 2;
             this.btnnuevocalendario.Text = "Nuevo";
             this.btnnuevocalendario.UseVisualStyleBackColor = true;
@@ -150,27 +153,26 @@
             this.tblcalendario.AllowUserToDeleteRows = false;
             this.tblcalendario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tblcalendario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tblcalendario.Location = new System.Drawing.Point(13, 42);
-            this.tblcalendario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tblcalendario.Location = new System.Drawing.Point(10, 34);
+            this.tblcalendario.Margin = new System.Windows.Forms.Padding(2);
             this.tblcalendario.Name = "tblcalendario";
             this.tblcalendario.ReadOnly = true;
             this.tblcalendario.RowTemplate.Height = 24;
-            this.tblcalendario.Size = new System.Drawing.Size(805, 369);
+            this.tblcalendario.Size = new System.Drawing.Size(579, 300);
             this.tblcalendario.TabIndex = 3;
             this.tblcalendario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.tblcalendario.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView1_CellPainting);
             // 
             // Torneos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Campeonatos.Properties.Resources.skateboard_you_can_free_abstract_soccer_frame_ppt;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(829, 551);
+            this.ClientSize = new System.Drawing.Size(619, 452);
             this.Controls.Add(this.tblcalendario);
             this.Controls.Add(this.btnnuevocalendario);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Torneos";
             this.Text = "Torneos";
             this.Load += new System.EventHandler(this.Torneos_Load);

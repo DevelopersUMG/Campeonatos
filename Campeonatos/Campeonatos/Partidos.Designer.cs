@@ -36,8 +36,6 @@
             this.calendario_grid = new System.Windows.Forms.DataGridView();
             this.generar_btn = new System.Windows.Forms.Button();
             this.info_lbl = new System.Windows.Forms.Label();
-            this.torneo_cmb = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.equipos_data)).BeginInit();
             this.calendario_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calendario_grid)).BeginInit();
@@ -138,27 +136,6 @@
             this.info_lbl.TabIndex = 6;
             this.info_lbl.Text = "El calendario de juegos no ha sido generado";
             // 
-            // torneo_cmb
-            // 
-            this.torneo_cmb.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.torneo_cmb.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.torneo_cmb.FormattingEnabled = true;
-            this.torneo_cmb.Location = new System.Drawing.Point(991, 13);
-            this.torneo_cmb.Name = "torneo_cmb";
-            this.torneo_cmb.Size = new System.Drawing.Size(180, 28);
-            this.torneo_cmb.TabIndex = 7;
-            this.torneo_cmb.SelectedIndexChanged += new System.EventHandler(this.torneo_cmb_SelectedIndexChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(910, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 20);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Torneos:";
-            // 
             // Partidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -166,8 +143,6 @@
             this.BackgroundImage = global::Campeonatos.Properties.Resources.fondodestas;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 715);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.torneo_cmb);
             this.Controls.Add(this.info_lbl);
             this.Controls.Add(this.generar_btn);
             this.Controls.Add(this.calendario_panel);
@@ -199,7 +174,5 @@
         private System.Windows.Forms.Button generar_btn;
         private System.Windows.Forms.Label info_lbl;
         private System.Windows.Forms.DataGridView calendario_grid;
-        private System.Windows.Forms.ComboBox torneo_cmb;
-        private System.Windows.Forms.Label label2;
     }
 }

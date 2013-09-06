@@ -29,7 +29,7 @@ namespace Campeonatos
         {
             tblcalendario.Columns.Clear();
 
-            tblcalendario.DataSource = db.consultarGrid("select idcampeonato,nombre,fecha_inicio,fecha_final from campeonato").DataSource;
+            tblcalendario.DataSource = db.consultarGrid("select idcampeonato,nombre as 'Nombre',fecha_inicio as 'Fecha de Inicio',fecha_final as 'Fecha Final' from campeonato").DataSource;
 
             DataGridViewButtonColumn col = new DataGridViewButtonColumn();
             col.UseColumnTextForButtonValue = true;
@@ -55,7 +55,7 @@ namespace Campeonatos
             col.Name = "Calendario";
             tblcalendario.Columns.Add(col);
 
-            tblcalendario .Columns[0].Visible = false;
+           tblcalendario.Columns[0].Visible = false;
 
             panel1.Visible = false;
         }
@@ -83,7 +83,7 @@ namespace Campeonatos
             }
             else
             {
-                db.actualizar(tabla, dict, "idcampeonato='" + tblcalendario[0, tblcalendario.CurrentRow.Index].Value+"'");/////////////
+                db.actualizar(tabla, dict, "idcampeonato='" + tblcalendario.CurrentRow.Cells["idcampeonato"].Value + "'");/////////////
             }
             modi = false;
             txtnombretorneo.Text = "";
@@ -95,7 +95,7 @@ namespace Campeonatos
             row = e.RowIndex + 1;
             if (this.tblcalendario.Columns[e.ColumnIndex].Name == "Edición")
             {
-                string query = "select nombre,fecha_inicio,fecha_final from campeonato where idcampeonato = '" + tblcalendario[4, tblcalendario.CurrentRow.Index].Value + "'";
+                string query = "select nombre,fecha_inicio,fecha_final from campeonato where idcampeonato = '" + tblcalendario.CurrentRow.Cells["idcampeonato"].Value + "'";
                 ArrayList array = db.consultar(query);
                 foreach (Dictionary<string, string> v in array)
                 {
@@ -105,6 +105,7 @@ namespace Campeonatos
                     modi = true;
                 }
                 panel1.Visible = true;
+                txtnombretorneo.Focus();
 
             }
             else if (this.tblcalendario.Columns[e.ColumnIndex].Name == "Eliminación")
@@ -112,10 +113,16 @@ namespace Campeonatos
                 if (MessageBox.Show("¿Estás seguro de eliminar este registro?", "Eliminar registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     int id = 0;
-                    String ob = tblcalendario[5, tblcalendario.CurrentRow.Index].Value.ToString();
+                    //String ob = tblcalendario[3, tblcalendario.CurrentRow.Index].Value.ToString();
                     //MessageBox.Show(tblcalendario[0, tblcalendario.CurrentRow.Index].Value.ToString());
-                    id = Convert.ToInt32(tblcalendario[4, tblcalendario.CurrentRow.Index].Value);
-                    db.eliminar("campeonato", "idcampeonato=" + id);
+
+                    //prueba
+                    int p = Convert.ToInt32(tblcalendario.CurrentRow.Cells["idcampeonato"].Value);
+                    //MessageBox.Show("Numero "+p.ToString());
+                    //
+                    /*id = Convert.ToInt32(tblcalendario[4, tblcalendario.CurrentRow.Index].Value);
+                    MessageBox.Show(id.ToString());*/
+                    db.eliminar("campeonato", "idcampeonato=" + p);
 
                     MessageBox.Show("Registro eliminado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     consultar();
@@ -123,9 +130,9 @@ namespace Campeonatos
             }
             else if (this.tblcalendario.Columns[e.ColumnIndex].Name == "Equipos")
             {
-                String valor = tblcalendario.Rows[e.RowIndex].Cells[4].Value.ToString();
-                //MessageBox.Show(valor);
-                new Asignacion_torneo(Convert.ToInt32(valor)).ShowDialog();
+                int p = Convert.ToInt32(tblcalendario.CurrentRow.Cells["idcampeonato"].Value);
+                //MessageBox.Show(p.ToString());
+                new Asignacion_torneo(p).ShowDialog();
             }
             else if (tblcalendario.Columns[e.ColumnIndex].Name == "Calendario")
             {

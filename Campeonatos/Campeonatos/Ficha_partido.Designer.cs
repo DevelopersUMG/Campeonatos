@@ -35,6 +35,7 @@
             this.gol_vis_tbx = new System.Windows.Forms.TextBox();
             this.local_dgw = new System.Windows.Forms.DataGridView();
             this.visita_dgw = new System.Windows.Forms.DataGridView();
+            this.guardar_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.local_dgw)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.visita_dgw)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +54,7 @@
             // 
             // gol_loc_tbx
             // 
+            this.gol_loc_tbx.Enabled = false;
             this.gol_loc_tbx.Location = new System.Drawing.Point(331, 77);
             this.gol_loc_tbx.Name = "gol_loc_tbx";
             this.gol_loc_tbx.Size = new System.Drawing.Size(65, 28);
@@ -83,6 +85,7 @@
             // 
             // gol_vis_tbx
             // 
+            this.gol_vis_tbx.Enabled = false;
             this.gol_vis_tbx.Location = new System.Drawing.Point(461, 77);
             this.gol_vis_tbx.Name = "gol_vis_tbx";
             this.gol_vis_tbx.Size = new System.Drawing.Size(63, 28);
@@ -97,11 +100,12 @@
             this.local_dgw.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.local_dgw.Location = new System.Drawing.Point(12, 126);
             this.local_dgw.Name = "local_dgw";
-            this.local_dgw.ReadOnly = true;
             this.local_dgw.RowTemplate.Height = 24;
             this.local_dgw.Size = new System.Drawing.Size(384, 633);
             this.local_dgw.TabIndex = 5;
-            this.local_dgw.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.local_dgw_CellContentClick);
+            this.local_dgw.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.local_dgw_CellBeginEdit);
+            //this.local_dgw.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.local_dgw_CellContentClick);
+            this.local_dgw.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.local_dgw_CellEndEdit);
             // 
             // visita_dgw
             // 
@@ -112,11 +116,22 @@
             this.visita_dgw.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.visita_dgw.Location = new System.Drawing.Point(461, 126);
             this.visita_dgw.Name = "visita_dgw";
-            this.visita_dgw.ReadOnly = true;
             this.visita_dgw.RowTemplate.Height = 24;
             this.visita_dgw.Size = new System.Drawing.Size(384, 633);
             this.visita_dgw.TabIndex = 6;
-            this.visita_dgw.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.visita_dgw_CellContentClick);
+            this.visita_dgw.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.visita_dgw_CellBeginEdit);
+            //this.visita_dgw.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.visita_dgw_CellContentClick);
+            this.visita_dgw.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.visita_dgw_CellEndEdit);
+            // 
+            // guardar_btn
+            // 
+            this.guardar_btn.Location = new System.Drawing.Point(354, 765);
+            this.guardar_btn.Name = "guardar_btn";
+            this.guardar_btn.Size = new System.Drawing.Size(144, 37);
+            this.guardar_btn.TabIndex = 7;
+            this.guardar_btn.Text = "Guardar";
+            this.guardar_btn.UseVisualStyleBackColor = true;
+            this.guardar_btn.Click += new System.EventHandler(this.guardar_btn_Click);
             // 
             // Ficha_partido
             // 
@@ -125,6 +140,7 @@
             this.BackgroundImage = global::Campeonatos.Properties.Resources.skateboard_you_can_free_abstract_soccer_frame_ppt;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(858, 814);
+            this.Controls.Add(this.guardar_btn);
             this.Controls.Add(this.visita_dgw);
             this.Controls.Add(this.local_dgw);
             this.Controls.Add(this.visita_lbl);
@@ -133,7 +149,7 @@
             this.Controls.Add(this.gol_loc_tbx);
             this.Controls.Add(this.local_lbl);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ficha_partido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ficha del partido";
@@ -154,5 +170,6 @@
         private System.Windows.Forms.TextBox gol_vis_tbx;
         private System.Windows.Forms.DataGridView local_dgw;
         private System.Windows.Forms.DataGridView visita_dgw;
+        private System.Windows.Forms.Button guardar_btn;
     }
 }
