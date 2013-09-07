@@ -138,5 +138,10 @@ namespace Campeonatos
         {
             abrir_modulo(new Estadisticas(), "Estadísticas");
         }
+
+        private void verLaAyudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Help.ShowHelp(this, "ayuda.chm");
+        }
     }
 }
