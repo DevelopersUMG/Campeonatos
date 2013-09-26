@@ -16,7 +16,7 @@ namespace Campeonatos
 {
     public partial class frm_insertar_jugador : Form
     {
-        //String Query = " select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador";
+        
         public frm_insertar_jugador()
         {
             InitializeComponent();
@@ -68,7 +68,7 @@ namespace Campeonatos
         {
             controldatagrid();
             lbl_total_jugadores.Text = "Total de jugadores: " + grid1.RowCount;
-            //grid1.DataSource = db.consultarGrid("select nombre as 'Nombre del Jugador',telefono as 'Telefono del jugador',direccion as 'Direccion del jugador' from jugador").DataSource;
+            
         }
 
        
@@ -140,7 +140,7 @@ namespace Campeonatos
         private void rdb_nombre_CheckedChanged(object sender, EventArgs e)
         {
             grid1.Sort(grid1.Columns["Nombre del Jugador"], ListSortDirection.Ascending);
-            //jugadores_dgw.Sort(jugadores_dgw.Columns["Goles"], ListSortDirection.Descending);
+            
         }
 
         private void rdb_telefono_CheckedChanged(object sender, EventArgs e)

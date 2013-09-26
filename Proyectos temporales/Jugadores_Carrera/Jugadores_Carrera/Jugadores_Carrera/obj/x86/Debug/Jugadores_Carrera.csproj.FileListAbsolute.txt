@@ -25,3 +25,16 @@ C:\Users\evelyn\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carr
 C:\Users\evelyn\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\bin\Debug\Jugadores_Carrera.pdb
 C:\Users\evelyn\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\bin\Debug\System.Data.SQLite.dll
 C:\Users\evelyn\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\bin\Debug\SQLiteConnect.pdb
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\Jugadores_Carrera.exe
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\Jugadores_Carrera.pdb
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\bin\Debug\Jugadores_Carrera.exe
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\bin\Debug\Jugadores_Carrera.pdb
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\bin\Debug\System.Data.SQLite.dll
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\bin\Debug\SQLiteConnect.pdb
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\WindowsFormsApplication1.Frm_edicion.resources
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\WindowsFormsApplication1.Frm_consulta.resources
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\WindowsFormsApplication1.frm_insertar_jugador.resources
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\OttoAlien\Documents\GitHub\Campeonatos\Proyectos temporales\Jugadores_Carrera\Jugadores_Carrera\Jugadores_Carrera\obj\x86\Debug\GenerateResource.write.1.tlog

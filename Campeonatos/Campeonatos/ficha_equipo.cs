@@ -53,12 +53,11 @@ namespace Campeonatos
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //string query = "select idjugador as 'ID', nombre as 'Nombre', telefono as 'Telefono', direccion as 'Direccion' from jugador ";
-            //grid_bd_jugadores.DataSource = db.consultarGrid(query).DataSource;
+            
 
             string query = "select j.idjugador as 'id', j.nombre as 'Nombre', j.telefono as 'Telefono', j.direccion as 'Direccion' from jugador j, equipo e, ficha_jugador f ";
             query += "where f.idjugador=j.idjugador and e.idequipo=f.idequipo and e.idequipo = "+id_equipo;
-            //grid_lista_jugadores.DataSource = db.consultarGrid(query).DataSource;
+           
             System.Collections.ArrayList array = db.consultar(query);
             grid_lista_jugadores.RowCount = array.Count;
             grid_lista_jugadores.ColumnCount = 4;
@@ -74,19 +73,7 @@ namespace Campeonatos
             }
             grid_lista_jugadores.Columns[0].Visible = false;
 
-           // query = "select idjugador, nombre as 'Nombre', telefono as 'Telefono', direccion as 'Direccion' from jugador";
-            /*
-            for (int i = 0; i < grid_lista_jugadores.RowCount; i++)
-            {
-                query += " idjugador <> " + grid_lista_jugadores.Rows[i].Cells[0].Value;
-                if (i < (grid_lista_jugadores.RowCount - 1))
-                {
-                    query += " and ";
-                }
-            }
-            */
-           // grid_bd_jugadores.DataSource = db.consultarGrid(query).DataSource;
-
+          
 
             /*
             BLOQUE CON EL QUE SE LLAMA A LA CLASE Y SE LLENA EL DATAGRIDVIEW
@@ -112,11 +99,7 @@ namespace Campeonatos
 
         private void button_nuevo_jugador_Click(object sender, EventArgs e)
         {
-            //jugadorescs f = new jugadorescs();
-            //f.Show();
-            //jugadorescs f = new jugadorescs();
-            //f.ShowDialog();
-
+            
             string query = "select j.idjugador as 'id', j.nombre as 'Nombre', j.telefono as 'Telefono', j.direccion as 'Direccion' from jugador j, equipo e, ficha_jugador f ";
             query += "where f.idjugador=j.idjugador and e.idequipo=f.idequipo and e.idequipo = " + id_equipo;
 
@@ -147,7 +130,7 @@ namespace Campeonatos
             {
 
 
-                //int rowIndex = grid_bd_jugadores.CurrentCell.RowIndex;
+                
                 cont = grid_lista_jugadores.RowCount;
                 grid_lista_jugadores.RowCount += 1;
                 
@@ -159,22 +142,14 @@ namespace Campeonatos
 
                 cont++;
 
-               /* string query = "select idjugador from ficha_jugador where idjugador = " + grid_lista_jugadores.Rows[cont].Cells[0].Value + " and idequipo = " + id_equipo;
-                // MessageBox.Show(query + " " + grid_lista_jugadores.RowCount);
-                System.Collections.ArrayList a = db.consultar(query);
-                */
-               // if (a.Count == 0)
-                //{
+               
                     int cont3 = grid_bd_jugadores.CurrentCell.RowIndex;
                     string tabla = "ficha_jugador";
                     Dictionary<string, string> dict = new Dictionary<string, string>();
                     dict.Add("idjugador", grid_bd_jugadores.Rows[cont3].Cells[0].Value.ToString());
                     dict.Add("idequipo", id_equipo.ToString());
                     db.insertar(tabla, dict);
-                    //grid_bd_jugadores.Rows.RemoveAt(rowIndex);
-                //}
-
-
+                  
             }
             else
             {
@@ -212,8 +187,7 @@ namespace Campeonatos
                     grid_lista_jugadores.Rows.RemoveAt(rowIndex);
                     grid_lista_jugadores.Rows.Add(1);
                     cont = cont - 1;
-                    // grid_lista_jugadores.RowCount -= 1;
-
+                   
                     int row = grid_lista_jugadores.CurrentCell.RowIndex;
                     string j = grid_lista_jugadores.Rows[row].Cells[0].Value.ToString();
 
@@ -251,11 +225,7 @@ namespace Campeonatos
                 MessageBox.Show(exc.Message);
             }
         
-          // string searchedText = text_buscar.Text;
-          // var matchedRows = this.grid_bd_jugadores.Rows.Cast<DataGridViewRow>().Select(r => r.Cells["ID"].Value).Where(v => v != null && v.ToString() == searchedText).ToList();
-
-
-            
+                    
 
         }
 
