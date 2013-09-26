@@ -19,6 +19,7 @@ namespace Campeonatos
 {
     public partial class crear_equipo : Form
     {
+        validacionCampos va = new validacionCampos();
         DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
         int id_equipo;
         
@@ -80,6 +81,36 @@ namespace Campeonatos
             ficha_equipo f = new ficha_equipo(id_equipo, nombre, encargado, telefono);
             f.ShowDialog();
         }
+        }
+
+        private void nombre_equipo_text_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(nombre_equipo_text);
+        }
+
+        private void nombre_equipo_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras_palabras(e);
+        }
+
+        private void encargado_text_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(encargado_text);
+        }
+
+        private void encargado_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras_palabras(e);
+        }
+
+        private void telefono_text_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloNumeros(e);
+        }
+
+        private void telefono_text_Leave(object sender, EventArgs e)
+        {
+            va.escrituraNumeros(telefono_text);
         }
 
 

@@ -89,3 +89,34 @@ C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Deb
 C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Torneos.resources
 C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ventana.resources
 C:\Users\Guicho\Documents\GitHub\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.csproj.GenerateResource.Cache
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe.config
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.exe
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.pdb
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\bin\Debug\Campeonatos.exe
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\bin\Debug\Campeonatos.pdb
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\bin\Debug\System.Data.SQLite.dll
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\bin\Debug\Calendario.pdb
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\bin\Debug\SQLiteConnect.pdb
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Asignacion_torneo.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.form_bienvenida.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Configuración.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.crear_equipo.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Equipos.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Estadisticas.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.ficha_equipo.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ficha_partido.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Frm_consulta.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Frm_edicion.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.frm_insertar_jugador.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Frm_menu_jugadores.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Insertar_varios.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.jugadorescs.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Partidos.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Properties.Resources.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ruta_base.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Seleccion_campeonato.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Torneos.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\Campeonatos.Ventana.resources
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Guille\Desktop\modificacione desde github\modificado con validaciones\Campeonatos\Campeonatos\Campeonatos\obj\x86\Debug\GenerateResource.write.1.tlog

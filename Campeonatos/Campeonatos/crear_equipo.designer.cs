@@ -120,6 +120,8 @@
             this.nombre_equipo_text.Name = "nombre_equipo_text";
             this.nombre_equipo_text.Size = new System.Drawing.Size(100, 21);
             this.nombre_equipo_text.TabIndex = 6;
+            this.nombre_equipo_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nombre_equipo_text_KeyPress);
+            this.nombre_equipo_text.Leave += new System.EventHandler(this.nombre_equipo_text_Leave);
             // 
             // encargado_text
             // 
@@ -129,6 +131,8 @@
             this.encargado_text.Name = "encargado_text";
             this.encargado_text.Size = new System.Drawing.Size(100, 21);
             this.encargado_text.TabIndex = 7;
+            this.encargado_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.encargado_text_KeyPress);
+            this.encargado_text.Leave += new System.EventHandler(this.encargado_text_Leave);
             // 
             // telefono_text
             // 
@@ -138,6 +142,8 @@
             this.telefono_text.Name = "telefono_text";
             this.telefono_text.Size = new System.Drawing.Size(100, 21);
             this.telefono_text.TabIndex = 8;
+            this.telefono_text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.telefono_text_KeyPress);
+            this.telefono_text.Leave += new System.EventHandler(this.telefono_text_Leave);
             // 
             // Label_telefono
             // 

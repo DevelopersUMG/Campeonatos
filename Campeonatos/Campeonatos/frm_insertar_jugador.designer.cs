@@ -103,6 +103,8 @@
             this.txt_nombre_jugador.Name = "txt_nombre_jugador";
             this.txt_nombre_jugador.Size = new System.Drawing.Size(173, 20);
             this.txt_nombre_jugador.TabIndex = 9;
+            this.txt_nombre_jugador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_nombre_jugador_KeyPress);
+            this.txt_nombre_jugador.Leave += new System.EventHandler(this.txt_nombre_jugador_Leave);
             // 
             // txt_tel_jugador
             // 
@@ -110,6 +112,8 @@
             this.txt_tel_jugador.Name = "txt_tel_jugador";
             this.txt_tel_jugador.Size = new System.Drawing.Size(173, 20);
             this.txt_tel_jugador.TabIndex = 10;
+            this.txt_tel_jugador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_tel_jugador_KeyPress);
+            this.txt_tel_jugador.Leave += new System.EventHandler(this.txt_tel_jugador_Leave);
             // 
             // txt_direccion_jugador
             // 
@@ -117,6 +121,8 @@
             this.txt_direccion_jugador.Name = "txt_direccion_jugador";
             this.txt_direccion_jugador.Size = new System.Drawing.Size(173, 20);
             this.txt_direccion_jugador.TabIndex = 11;
+            this.txt_direccion_jugador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_direccion_jugador_KeyPress);
+            this.txt_direccion_jugador.Leave += new System.EventHandler(this.txt_direccion_jugador_Leave);
             // 
             // btn_guardar
             // 

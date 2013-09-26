@@ -19,6 +19,7 @@ namespace Campeonatos
         {
             InitializeComponent();
         }
+        validacionCampos va = new validacionCampos();
 
         bool modi = false;
         DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
@@ -123,6 +124,36 @@ namespace Campeonatos
             txtnombrequipo.Text = "";
             txttelefono.Text = "";
             edicion_pnl.Visible = false;
+        }
+
+        private void txtnombrequipo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras_palabras(e);
+        }
+
+        private void txtnombrequipo_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(txtnombrequipo);
+        }
+
+        private void txtencargado_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras_palabras(e);
+        }
+
+        private void txtencargado_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(txtencargado);
+        }
+
+        private void txttelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloNumeros(e);
+        }
+
+        private void txttelefono_Leave(object sender, EventArgs e)
+        {
+            va.escrituraNumeros(txttelefono);
         }
     }
 }

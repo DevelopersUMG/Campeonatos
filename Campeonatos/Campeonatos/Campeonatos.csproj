@@ -164,6 +164,7 @@
     <Compile Include="Torneos.Designer.cs">
       <DependentUpon>Torneos.cs</DependentUpon>
     </Compile>
+    <Compile Include="validacionCampos.cs" />
     <Compile Include="Ventana.cs">
       <SubType>Form</SubType>
     </Compile>

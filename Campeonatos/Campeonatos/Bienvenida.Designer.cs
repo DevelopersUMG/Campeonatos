@@ -57,6 +57,7 @@
             this.txt_pass.Size = new System.Drawing.Size(190, 21);
             this.txt_pass.TabIndex = 12;
             this.txt_pass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_pass_KeyPress);
+            this.txt_pass.Leave += new System.EventHandler(this.txt_pass_Leave);
             // 
             // txt_usuario
             // 
@@ -65,6 +66,8 @@
             this.txt_usuario.Name = "txt_usuario";
             this.txt_usuario.Size = new System.Drawing.Size(190, 21);
             this.txt_usuario.TabIndex = 11;
+            this.txt_usuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_usuario_KeyPress);
+            this.txt_usuario.Leave += new System.EventHandler(this.txt_usuario_Leave);
             // 
             // Label2
             // 
@@ -106,7 +109,7 @@
             // 
             this.btn_cerrar.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cerrar.Location = new System.Drawing.Point(382, 338);
-            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cerrar.Name = "btn_cerrar";
             this.btn_cerrar.Size = new System.Drawing.Size(69, 29);
             this.btn_cerrar.TabIndex = 14;
@@ -128,7 +131,7 @@
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.label4);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "form_bienvenida";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bienvenido";

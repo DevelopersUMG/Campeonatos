@@ -18,6 +18,8 @@ namespace Campeonatos
 {
     public partial class ficha_equipo : Form
     {
+
+        validacionCampos va = new validacionCampos();
         DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
 
         static int cont = 0;
@@ -262,6 +264,16 @@ namespace Campeonatos
 
             this.Close();
 
+        }
+
+        private void buscar_buscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras_palabras(e);
+        }
+
+        private void buscar_buscar_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(buscar_buscar);
         }
     }
 } 

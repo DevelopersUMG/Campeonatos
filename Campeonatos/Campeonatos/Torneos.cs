@@ -21,6 +21,8 @@ namespace Campeonatos
             InitializeComponent();
         }
 
+        validacionCampos va = new validacionCampos();
+
         DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
         bool modi = false;
         int row = -1;
@@ -212,6 +214,17 @@ namespace Campeonatos
         {
             panel1.Visible = false;
             txtnombretorneo.Text = "";
+        }
+
+        private void txtnombretorneo_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(txtnombretorneo);
+
+        }
+
+        private void txtnombretorneo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras_palabras(e);
         }
     }
 }

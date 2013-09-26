@@ -141,6 +141,8 @@
             this.txtnombretorneo.Name = "txtnombretorneo";
             this.txtnombretorneo.Size = new System.Drawing.Size(206, 20);
             this.txtnombretorneo.TabIndex = 1;
+            this.txtnombretorneo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtnombretorneo_KeyPress);
+            this.txtnombretorneo.Leave += new System.EventHandler(this.txtnombretorneo_Leave);
             // 
             // btnnuevocalendario
             // 

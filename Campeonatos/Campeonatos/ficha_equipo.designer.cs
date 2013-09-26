@@ -221,6 +221,8 @@
             this.buscar_buscar.Size = new System.Drawing.Size(111, 20);
             this.buscar_buscar.TabIndex = 17;
             this.buscar_buscar.Visible = false;
+            this.buscar_buscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.buscar_buscar_KeyPress);
+            this.buscar_buscar.Leave += new System.EventHandler(this.buscar_buscar_Leave);
             // 
             // label5
             // 

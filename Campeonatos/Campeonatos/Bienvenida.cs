@@ -16,6 +16,7 @@ namespace Campeonatos
 {
     public partial class form_bienvenida : Form
     {
+        validacionCampos va = new validacionCampos();
         DBConnect db = new DBConnect(Properties.Settings.Default.ruta);
 
         public form_bienvenida()
@@ -56,6 +57,21 @@ namespace Campeonatos
                 btn_login_Click(sender,e);
             }
            
+        }
+
+        private void txt_usuario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras(e);
+        }
+
+        private void txt_usuario_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(txt_usuario);
+        }
+
+        private void txt_pass_Leave(object sender, EventArgs e)
+        {
+            va.escrituraAlfanumerico(txt_pass);
         }
     }
 }

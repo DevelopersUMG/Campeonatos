@@ -79,26 +79,32 @@
             // txtnombrequipo
             // 
             this.txtnombrequipo.Location = new System.Drawing.Point(123, 9);
-            this.txtnombrequipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtnombrequipo.Margin = new System.Windows.Forms.Padding(2);
             this.txtnombrequipo.Name = "txtnombrequipo";
             this.txtnombrequipo.Size = new System.Drawing.Size(175, 20);
             this.txtnombrequipo.TabIndex = 3;
+            this.txtnombrequipo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtnombrequipo_KeyPress);
+            this.txtnombrequipo.Leave += new System.EventHandler(this.txtnombrequipo_Leave);
             // 
             // txtencargado
             // 
             this.txtencargado.Location = new System.Drawing.Point(123, 34);
-            this.txtencargado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtencargado.Margin = new System.Windows.Forms.Padding(2);
             this.txtencargado.Name = "txtencargado";
             this.txtencargado.Size = new System.Drawing.Size(175, 20);
             this.txtencargado.TabIndex = 4;
+            this.txtencargado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtencargado_KeyPress);
+            this.txtencargado.Leave += new System.EventHandler(this.txtencargado_Leave);
             // 
             // txttelefono
             // 
             this.txttelefono.Location = new System.Drawing.Point(123, 58);
-            this.txttelefono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txttelefono.Margin = new System.Windows.Forms.Padding(2);
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(175, 20);
             this.txttelefono.TabIndex = 5;
+            this.txttelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttelefono_KeyPress);
+            this.txttelefono.Leave += new System.EventHandler(this.txttelefono_Leave);
             // 
             // edicion_pnl
             // 
@@ -112,7 +118,7 @@
             this.edicion_pnl.Controls.Add(this.lbltelefono);
             this.edicion_pnl.Controls.Add(this.txtnombrequipo);
             this.edicion_pnl.Location = new System.Drawing.Point(9, 330);
-            this.edicion_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.edicion_pnl.Margin = new System.Windows.Forms.Padding(2);
             this.edicion_pnl.Name = "edicion_pnl";
             this.edicion_pnl.Size = new System.Drawing.Size(449, 81);
             this.edicion_pnl.TabIndex = 6;
@@ -121,7 +127,7 @@
             // 
             this.cancelar_btn.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelar_btn.Location = new System.Drawing.Point(375, 52);
-            this.cancelar_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cancelar_btn.Margin = new System.Windows.Forms.Padding(2);
             this.cancelar_btn.Name = "cancelar_btn";
             this.cancelar_btn.Size = new System.Drawing.Size(72, 29);
             this.cancelar_btn.TabIndex = 9;
@@ -133,7 +139,7 @@
             // 
             this.btnguardar.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.Location = new System.Drawing.Point(311, 52);
-            this.btnguardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(59, 29);
             this.btnguardar.TabIndex = 6;
@@ -148,7 +154,7 @@
             this.tblequipo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tblequipo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblequipo.Location = new System.Drawing.Point(9, 34);
-            this.tblequipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tblequipo.Margin = new System.Windows.Forms.Padding(2);
             this.tblequipo.Name = "tblequipo";
             this.tblequipo.ReadOnly = true;
             this.tblequipo.RowTemplate.Height = 24;
@@ -160,7 +166,7 @@
             // 
             this.btnnuevo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnnuevo.Location = new System.Drawing.Point(404, 3);
-            this.btnnuevo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnnuevo.Margin = new System.Windows.Forms.Padding(2);
             this.btnnuevo.Name = "btnnuevo";
             this.btnnuevo.Size = new System.Drawing.Size(57, 27);
             this.btnnuevo.TabIndex = 8;
@@ -177,7 +183,7 @@
             this.Controls.Add(this.btnnuevo);
             this.Controls.Add(this.tblequipo);
             this.Controls.Add(this.edicion_pnl);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Equipos";
             this.Text = "Equipos";
             this.Load += new System.EventHandler(this.Equipos_Load);

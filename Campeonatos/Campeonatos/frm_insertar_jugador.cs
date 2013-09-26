@@ -21,6 +21,8 @@ namespace Campeonatos
         {
             InitializeComponent();
         }
+        validacionCampos va = new validacionCampos();
+
         DBConnect db = new DBConnect("campeonato.sqlite");
 
         bool modificado = false;
@@ -149,6 +151,36 @@ namespace Campeonatos
         private void rdb_direccion_CheckedChanged(object sender, EventArgs e)
         {
             grid1.Sort(grid1.Columns["Direccion del jugador"], ListSortDirection.Ascending);
+        }
+
+        private void txt_nombre_jugador_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloLetras_palabras(e);
+        }
+
+        private void txt_nombre_jugador_Leave(object sender, EventArgs e)
+        {
+            va.escrituraLetras(txt_nombre_jugador);   
+        }
+
+        private void txt_tel_jugador_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.soloNumeros(e);
+        }
+
+        private void txt_tel_jugador_Leave(object sender, EventArgs e)
+        {
+            va.escrituraNumeros(txt_tel_jugador);
+        }
+
+        private void txt_direccion_jugador_Leave(object sender, EventArgs e)
+        {
+            va.escrituraAlfanumerico(txt_direccion_jugador);
+        }
+
+        private void txt_direccion_jugador_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            va.alfanumerico(e);
         }
 
        
