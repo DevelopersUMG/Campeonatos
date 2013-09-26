@@ -50,7 +50,7 @@ namespace Campeonatos
                 c++;
             }
             
-            query = "select f.cod_ficha as 'idjugador', j.nombre as 'nombre' from ficha_jugador f, jugador j where f.idjugador=j.idjugador and f.idequipo = " + local;
+            query = "select f.cod_ficha as 'idjugador', j.nombre as 'nombre' from ficha_jugador f, jugador j where f.idjugador=j.idjugador and f.estado==0 and f.idequipo = " + local;
             
             array = db.consultar(query);
             local_dgw.ColumnCount = 5;
@@ -72,7 +72,7 @@ namespace Campeonatos
             local_dgw.Columns[0].Visible = false;
             local_dgw.Columns[1].ReadOnly = true;
 
-            query = "select f.cod_ficha as 'idjugador', j.nombre as 'nombre' from ficha_jugador f, jugador j where f.idjugador=j.idjugador and f.idequipo = " + visita;
+            query = "select f.cod_ficha as 'idjugador', j.nombre as 'nombre' from ficha_jugador f, jugador j where f.idjugador=j.idjugador and f.estado==0 and f.idequipo = " + visita;
             array = db.consultar(query);
             visita_dgw.ColumnCount = 5;
             visita_dgw.RowCount = array.Count;
@@ -172,18 +172,32 @@ namespace Campeonatos
 
         private void actualizar_fichas(DataGridView grid)
         {
+            Dictionary<string, string> d =new  Dictionary<string, string>();
+            d.Add("estado", "0");
+            db.actualizar("ficha_jugador", d, "idequipo="+local);
+            db.actualizar("ficha_jugador", d, "idequipo=" + visita);
             string tabla = "detalles_jugador";
             for (int i = 0; i < grid.RowCount; i++)
             {
                 Dictionary<string, string> dict = new Dictionary<string, string>();
-                dict.Add("idpartido",idpartido.ToString());
+                dict.Add("idpartido", idpartido.ToString());
                 dict.Add("cod_ficha", grid.Rows[i].Cells[0].Value.ToString());
                 dict.Add("goles", grid.Rows[i].Cells[2].Value.ToString());
                 dict.Add("tarjeta_amarilla", grid.Rows[i].Cells[3].Value.ToString());
                 dict.Add("tarjeta_roja", grid.Rows[i].Cells[4].Value.ToString());
+                int a = Convert.ToInt32(grid.Rows[i].Cells[4].Value);
+                int b = Convert.ToInt32(grid.Rows[i].Cells[3].Value);
+                if (a == 1 || b == 2)
+                {
+                    string t = "ficha_jugador";
+                    Dictionary<string, string> act = new Dictionary<string, string>();
+                    act.Add("estado", "1");
+                    db.actualizar(t, act, "cod_ficha=" + grid.Rows[i].Cells[0].Value);
+                }
                 db.insertar(tabla, dict);
                 //Console.WriteLine(dict["goles"]);
             }
+            
             //Console.WriteLine("Terminado");
         }
 

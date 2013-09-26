@@ -74,6 +74,7 @@ namespace Campeonatos
         private void Estadisticas_Load(object sender, EventArgs e)
         {
             llenar_combo_equipos();
+            llenar_combo_suspendidos();
             bandera = true;
         }
 
@@ -88,10 +89,17 @@ namespace Campeonatos
                 else
                 {
                     consultar_por_equipo(); 
+
                 }
             }
         }
 
+        private void llenar_combo_suspendidos()
+    {
+        string query = "select j.nombre as 'Nombre del Jugador', e.nombre as 'Nombre del equipo' from equipo e, ficha_jugador f, jugador j, campeonato c where f.idjugador=j.idjugador and f.estado =1 and e.idequipo=f.idequipo and e.idcampeonato= c.idcampeonato and c.idcampeonato="+idtorneo;
+        grid_suspendidos.DataSource = db.consultarGrid(query).DataSource;
+
+    }
         private void estadisticas_globales()
         {
             jugadores_dgw.ColumnCount = 5;
@@ -202,6 +210,10 @@ namespace Campeonatos
             //this.dataGridView1.Sort(this.dataGridView1.Columns["Name"], ListSortDirection.Ascending);
             jugadores_dgw.Sort(jugadores_dgw.Columns["Goles"], ListSortDirection.Descending);
         }
+
+     
+
+        
 
     }
 }

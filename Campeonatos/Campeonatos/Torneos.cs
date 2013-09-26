@@ -114,7 +114,7 @@ namespace Campeonatos
             {
                 if (MessageBox.Show("¿Estás seguro de eliminar este registro?", "Eliminar registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    int id = 0;
+                    //int id = 0;
                     //String ob = tblcalendario[3, tblcalendario.CurrentRow.Index].Value.ToString();
                     //MessageBox.Show(tblcalendario[0, tblcalendario.CurrentRow.Index].Value.ToString());
 

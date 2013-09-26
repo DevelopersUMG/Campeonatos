@@ -100,41 +100,17 @@
     <Compile Include="Ficha_partido.Designer.cs">
       <DependentUpon>Ficha_partido.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_consulta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_consulta.designer.cs">
-      <DependentUpon>Frm_consulta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frm_edicion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_edicion.designer.cs">
-      <DependentUpon>Frm_edicion.cs</DependentUpon>
-    </Compile>
     <Compile Include="frm_insertar_jugador.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_insertar_jugador.designer.cs">
       <DependentUpon>frm_insertar_jugador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_menu.designer.cs">
-      <DependentUpon>Frm_menu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Insertar_varios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Insertar_varios.Designer.cs">
       <DependentUpon>Insertar_varios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="jugadorescs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="jugadorescs.Designer.cs">
-      <DependentUpon>jugadorescs.cs</DependentUpon>
     </Compile>
     <Compile Include="Partidos.cs">
       <SubType>Form</SubType>
@@ -195,23 +171,11 @@
     <EmbeddedResource Include="Ficha_partido.resx">
       <DependentUpon>Ficha_partido.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_consulta.resx">
-      <DependentUpon>Frm_consulta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_edicion.resx">
-      <DependentUpon>Frm_edicion.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frm_insertar_jugador.resx">
       <DependentUpon>frm_insertar_jugador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_menu.resx">
-      <DependentUpon>Frm_menu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Insertar_varios.resx">
       <DependentUpon>Insertar_varios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="jugadorescs.resx">
-      <DependentUpon>jugadorescs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Partidos.resx">
       <DependentUpon>Partidos.cs</DependentUpon>

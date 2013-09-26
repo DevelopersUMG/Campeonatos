@@ -114,8 +114,8 @@ namespace Campeonatos
         {
             //jugadorescs f = new jugadorescs();
             //f.Show();
-            jugadorescs f = new jugadorescs();
-            f.ShowDialog();
+            //jugadorescs f = new jugadorescs();
+            //f.ShowDialog();
 
             string query = "select j.idjugador as 'id', j.nombre as 'Nombre', j.telefono as 'Telefono', j.direccion as 'Direccion' from jugador j, equipo e, ficha_jugador f ";
             query += "where f.idjugador=j.idjugador and e.idequipo=f.idequipo and e.idequipo = " + id_equipo;
